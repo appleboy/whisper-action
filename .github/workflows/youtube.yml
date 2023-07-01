@@ -2,8 +2,8 @@ name: Youtube Video URL
 on: [push]
 
 jobs:
-  small-model:
-    name: transcript youtube video
+  youtube-eng-video:
+    name: transcript english video
     runs-on: ubuntu-latest
     steps:
     - name: checkout
@@ -14,6 +14,33 @@ jobs:
       with:
         model: small
         youtube_url: https://www.youtube.com/watch?v=pTCxXZh6VyE
+        output_format: txt,srt,csv
+        output_filename: youtube
+        output_folder: testdata
+        print_segment: true
+        debug: true
+
+    - name: show output data
+      run: |
+        echo "\n============ show txt file ============\n"
+        cat ./testdata/youtube.txt
+        echo "\n============ show srt file ============\n"
+        cat ./testdata/youtube.srt
+        echo "\n============ show csv file ============\n"
+        cat ./testdata/youtube.csv
+
+  youtube-cht-video:
+    name: transcript chinese video
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+
+    - name: speech to text
+      uses: ./
+      with:
+        model: medium
+        youtube_url: https://www.youtube.com/watch?v=u-ge5V6CN6w
         output_format: txt,srt,csv
         output_filename: youtube
         output_folder: testdata
