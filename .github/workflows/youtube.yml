@@ -9,16 +9,10 @@ jobs:
     - name: checkout
       uses: actions/checkout@v3
 
-    - name: download small model
-      run: |
-        mkdir -p models
-        curl -LJ https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin \
-          --output models/ggml-small.bin
-
     - name: speech to text
       uses: ./
       with:
-        model: ./models/ggml-small.bin
+        model: small
         youtube_url: https://www.youtube.com/watch?v=pTCxXZh6VyE
         output_format: txt,srt,csv
         output_filename: youtube
