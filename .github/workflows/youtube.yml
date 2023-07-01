@@ -22,6 +22,7 @@ jobs:
         youtube_url: https://www.youtube.com/watch?v=pTCxXZh6VyE
         output_format: txt,srt,csv
         output_filename: youtube
+        output_folder: testdata
         print_segment: true
         debug: true
 
