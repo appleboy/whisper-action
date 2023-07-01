@@ -9,16 +9,10 @@ jobs:
     - name: checkout
       uses: actions/checkout@v3
 
-    - name: download small model
-      run: |
-        mkdir -p models
-        curl -LJ https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin \
-          --output models/ggml-small.bin
-
     - name: speech to text
       uses: ./
       with:
-        model: ./models/ggml-small.bin
+        model: small
         audio_path: ./testdata/jfk.wav
         debug: true
 
@@ -34,16 +28,10 @@ jobs:
     - name: checkout
       uses: actions/checkout@v3
 
-    - name: download medium model
-      run: |
-        mkdir -p models
-        curl -LJ https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin \
-          --output models/ggml-medium.bin
-
     - name: speech to text
       uses: ./
       with:
-        model: ./models/ggml-medium.bin
+        model: medium
         audio_path: ./testdata/jfk.wav
         debug: true
 
