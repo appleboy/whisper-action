@@ -15,19 +15,18 @@ jobs:
         model: small
         youtube_url: https://www.youtube.com/watch?v=pTCxXZh6VyE
         output_format: txt,srt,csv
-        output_filename: youtube
-        output_folder: testdata
+        output_folder: youtube
         print_segment: true
         debug: true
 
-    - name: show output data
-      run: |
-        echo "\n============ show txt file ============\n"
-        cat ./testdata/youtube.txt
-        echo "\n============ show srt file ============\n"
-        cat ./testdata/youtube.srt
-        echo "\n============ show csv file ============\n"
-        cat ./testdata/youtube.csv
+    - name: git push changes
+      uses: appleboy/git-push-action@v0.0.2
+      with:
+        branch: main
+        commit: true
+        commit_message: "[skip ci] Updated changes by gitea bot"
+        remote: git@github.com:appleboy/whisper-action.git
+        ssh_key: ${{ secrets.DEPLOY_KEY }}
 
   youtube-cht-video:
     name: transcript chinese video
