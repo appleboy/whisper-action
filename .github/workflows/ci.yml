@@ -1,4 +1,4 @@
-name: Speech To Text
+name: Specific Video file
 on: [push]
 
 jobs:

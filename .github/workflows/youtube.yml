@@ -1,0 +1,34 @@
+name: Youtube Video URL
+on: [push]
+
+jobs:
+  small-model:
+    name: transcript youtube video
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+
+    - name: download small model
+      run: |
+        mkdir -p models
+        curl -LJ https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin \
+          --output models/ggml-small.bin
+
+    - name: speech to text
+      uses: ./
+      with:
+        model: ./models/ggml-small.bin
+        youtube_url: https://www.youtube.com/watch?v=pTCxXZh6VyE
+        output_format: txt,srt,csv
+        output_filename: youtube
+        debug: true
+
+    - name: show output data
+      run: |
+        echo "============ show txt file ============"
+        cat ./testdata/youtube.txt
+        echo "============ show srt file ============"
+        cat ./testdata/youtube.srt
+        echo "============ show csv file ============"
+        cat ./testdata/youtube.csv
