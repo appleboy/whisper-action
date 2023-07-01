@@ -28,9 +28,9 @@ jobs:
 
     - name: show output data
       run: |
-        echo "============ show txt file ============"
+        echo "\n============ show txt file ============\n"
         cat ./testdata/youtube.txt
-        echo "============ show srt file ============"
+        echo "\n============ show srt file ============\n"
         cat ./testdata/youtube.srt
-        echo "============ show csv file ============"
+        echo "\n============ show csv file ============\n"
         cat ./testdata/youtube.csv
