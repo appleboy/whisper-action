@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   small-model:
-    name: simple flow
+    name: run small model
     runs-on: ubuntu-latest
     steps:
     - name: checkout
@@ -28,7 +28,7 @@ jobs:
         cat ./testdata/jfk.txt
 
   medium-model:
-    name: simple flow
+    name: run medium model
     runs-on: ubuntu-latest
     steps:
     - name: checkout
