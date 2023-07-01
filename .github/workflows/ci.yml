@@ -51,28 +51,3 @@ jobs:
       run: |
         echo "show txt file"
         cat ./testdata/jfk.txt
-
-  large-model:
-    name: run large model
-    runs-on: ubuntu-latest
-    steps:
-    - name: checkout
-      uses: actions/checkout@v3
-
-    - name: download medium model
-      run: |
-        mkdir -p models
-        curl -LJ https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large.bin \
-          --output models/ggml-large.bin
-
-    - name: speech to text
-      uses: ./
-      with:
-        model: ./models/ggml-large.bin
-        audio_path: ./testdata/jfk.wav
-        debug: true
-
-    - name: show txt data
-      run: |
-        echo "show txt file"
-        cat ./testdata/jfk.txt
