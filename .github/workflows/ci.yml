@@ -1,0 +1,22 @@
+name: Speech To Text
+on: [push]
+
+jobs:
+  speech01:
+    name: simple flow
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+
+    - name: download small model
+      run: |
+        mkdir -p models
+        curl -LJ https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin \
+          --output models/ggml-small.bin
+
+    - name: speech to text
+      uses: ./
+      with:
+        model: ./models/ggml-small.bin
+        audio_path: ./testdata/jfk.wav

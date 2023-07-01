@@ -16,6 +16,7 @@ inputs:
     description: 'enable debug mode.'
   print_progress:
     description: 'print progress.'
+    default: 'true'
   print_segment:
     description: 'print segment.'
   youtube_url:
