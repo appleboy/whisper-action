@@ -41,8 +41,7 @@ jobs:
         model: medium
         youtube_url: https://www.youtube.com/watch?v=M_bjhKtR3fs
         output_format: txt,srt,csv
-        output_filename: youtube
-        output_folder: testdata
+        output_folder: youtube
         print_segment: true
         debug: true
 
