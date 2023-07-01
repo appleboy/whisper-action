@@ -1,0 +1,29 @@
+name: 'Speech_to_Text'
+description: 'Speech_to_Text Using Whisper model in C/C++'
+author: 'Bo_Yi Wu'
+inputs:
+  model:
+    description: 'Model is the interface to a whisper model.'
+  audio_path:
+    description: 'Audio Path.'
+  output_folder:
+    description: 'output folder.'
+  output_format:
+    description: 'output format, support txt, srt, csv.'
+  output_filename:
+    description: 'output filename.'
+  debug:
+    description: 'enable debug mode.'
+  print_progress:
+    description: 'print progress.'
+  print_segment:
+    description: 'print segment.'
+  youtube_url:
+    description: 'youtube url'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'terminal'
+  color: 'gray-dark'
