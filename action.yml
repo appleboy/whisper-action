@@ -10,6 +10,7 @@ inputs:
     description: 'output folder.'
   output_format:
     description: 'output format, support txt, srt, csv.'
+    default: 'txt'
   output_filename:
     description: 'output filename.'
   debug:

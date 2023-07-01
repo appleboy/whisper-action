@@ -2,7 +2,7 @@ name: Speech To Text
 on: [push]
 
 jobs:
-  speech01:
+  small-model:
     name: simple flow
     runs-on: ubuntu-latest
     steps:
@@ -20,12 +20,34 @@ jobs:
       with:
         model: ./models/ggml-small.bin
         audio_path: ./testdata/jfk.wav
+        debug: true
 
-    - name: show text
+    - name: show txt data
       run: |
         echo "show txt file"
         cat ./testdata/jfk.txt
-        echo "show csv file"
-        cat ./testdata/jfk.csv
-        echo "show srt file"
-        cat ./testdata/jfk.srt
+
+  medium-model:
+    name: simple flow
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+
+    - name: download medium model
+      run: |
+        mkdir -p models
+        curl -LJ https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin \
+          --output models/ggml-medium.bin
+
+    - name: speech to text
+      uses: ./
+      with:
+        model: ./models/ggml-medium.bin
+        audio_path: ./testdata/jfk.wav
+        debug: true
+
+    - name: show txt data
+      run: |
+        echo "show txt file"
+        cat ./testdata/jfk.txt
