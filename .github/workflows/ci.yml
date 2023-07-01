@@ -20,3 +20,12 @@ jobs:
       with:
         model: ./models/ggml-small.bin
         audio_path: ./testdata/jfk.wav
+
+    - name: show text
+      run: |
+        echo "show txt file"
+        cat ./testdata/jfk.txt
+        echo "show csv file"
+        cat ./testdata/jfk.csv
+        echo "show srt file"
+        cat ./testdata/jfk.srt
