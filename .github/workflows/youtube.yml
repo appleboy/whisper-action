@@ -24,7 +24,7 @@ jobs:
       with:
         branch: main
         commit: true
-        commit_message: "[skip ci] Updated changes by gitea bot"
+        commit_message: "[skip ci] Upload changes"
         remote: git@github.com:appleboy/whisper-action.git
         ssh_key: ${{ secrets.DEPLOY_KEY }}
 
@@ -46,11 +46,11 @@ jobs:
         print_segment: true
         debug: true
 
-    - name: show output data
-      run: |
-        echo "\n============ show txt file ============\n"
-        cat ./testdata/youtube.txt
-        echo "\n============ show srt file ============\n"
-        cat ./testdata/youtube.srt
-        echo "\n============ show csv file ============\n"
-        cat ./testdata/youtube.csv
+    - name: git push changes
+      uses: appleboy/git-push-action@v0.0.2
+      with:
+        branch: main
+        commit: true
+        commit_message: "[skip ci] Upload changes"
+        remote: git@github.com:appleboy/whisper-action.git
+        ssh_key: ${{ secrets.DEPLOY_KEY }}
