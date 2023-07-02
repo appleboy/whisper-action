@@ -1,5 +1,5 @@
 name: 'Speech to Text OpenAI Whisper'
-description: 'Speech to Text Using High-performance inference of OpenAI Whisper automatic speech recognition (ASR) model'
+description: 'High-performance inference of OpenAI Whisper automatic speech recognition (ASR) model'
 author: 'Bo-Yi Wu'
 inputs:
   model:
