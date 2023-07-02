@@ -1,6 +1,6 @@
 # whisper-action
 
-Speech-to-Text using [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) for [GitHub Action](https://github.com/features/actions).
+Speech-to-Text using [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) for [GitHub Action](https://github.com/features/actions). High-performance inference of OpenAI Whisper automatic speech recognition (ASR) model.
 
 ## Inputs variables
 

@@ -1,6 +1,6 @@
-name: 'Speech_to_Text'
-description: 'Speech_to_Text Using Whisper model in C/C++'
-author: 'Bo_Yi Wu'
+name: 'Speech to Text'
+description: 'Speech to Text Using High-performance inference of OpenAI Whisper automatic speech recognition (ASR) model'
+author: 'Bo-Yi Wu'
 inputs:
   model:
     description: 'public whisper model. (available: small, medium and large)'
