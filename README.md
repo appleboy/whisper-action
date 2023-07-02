@@ -49,6 +49,7 @@ jobs:
         commit_message: "[skip ci] Upload changes"
         remote: git@github.com:appleboy/whisper-action.git
         ssh_key: ${{ secrets.DEPLOY_KEY }}
+        rebase: true
 ```
 
 See the output file in youtube folder.
