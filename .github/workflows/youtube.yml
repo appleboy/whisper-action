@@ -20,13 +20,14 @@ jobs:
         debug: true
 
     - name: git push changes
-      uses: appleboy/git-push-action@v0.0.2
+      uses: appleboy/git-push-action@v0.0.3
       with:
         branch: main
         commit: true
         commit_message: "[skip ci] Upload changes"
         remote: git@github.com:appleboy/whisper-action.git
         ssh_key: ${{ secrets.DEPLOY_KEY }}
+        rebase: true
 
   youtube-cht-video:
     name: transcript chinese video
@@ -46,10 +47,11 @@ jobs:
         debug: true
 
     - name: git push changes
-      uses: appleboy/git-push-action@v0.0.2
+      uses: appleboy/git-push-action@v0.0.3
       with:
         branch: main
         commit: true
         commit_message: "[skip ci] Upload changes"
         remote: git@github.com:appleboy/whisper-action.git
         ssh_key: ${{ secrets.DEPLOY_KEY }}
+        rebase: true
