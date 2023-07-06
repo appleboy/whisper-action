@@ -67,7 +67,7 @@ jobs:
       uses: ./
       with:
         model: medium
-        youtube_url: https://www.youtube.com/watch?v=Gi0m08NuLJw
+        youtube_url: https://www.youtube.com/watch?v=4Yei_t6eMZU
         output_format: txt,srt,csv
         output_folder: youtube
         print_segment: true
