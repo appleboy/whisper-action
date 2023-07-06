@@ -55,3 +55,31 @@ jobs:
         remote: git@github.com:appleboy/whisper-action.git
         ssh_key: ${{ secrets.DEPLOY_KEY }}
         rebase: true
+
+  youtube-translate-video:
+    name: translate source language to english
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+
+    - name: speech to text
+      uses: ./
+      with:
+        model: medium
+        youtube_url: https://www.youtube.com/watch?v=Gi0m08NuLJw
+        output_format: txt,srt,csv
+        output_folder: youtube
+        print_segment: true
+        translate: true
+        debug: true
+
+    - name: git push changes
+      uses: appleboy/git-push-action@v0.0.3
+      with:
+        branch: main
+        commit: true
+        commit_message: "[skip ci] Upload changes"
+        remote: git@github.com:appleboy/whisper-action.git
+        ssh_key: ${{ secrets.DEPLOY_KEY }}
+        rebase: true

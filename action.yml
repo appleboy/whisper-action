@@ -23,6 +23,8 @@ inputs:
     description: 'print segment.'
   youtube_url:
     description: 'youtube url'
+  translate:
+    description: 'translate from source language to english'
 runs:
   using: 'docker'
   image: 'Dockerfile'
