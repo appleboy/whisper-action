@@ -1,4 +1,4 @@
-FROM ghcr.io/appleboy/go-whisper:0.0.7
+FROM ghcr.io/appleboy/go-whisper:latest
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
