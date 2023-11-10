@@ -2,8 +2,8 @@ name: Specific Video file
 on: [push]
 
 jobs:
-  small-model:
-    name: run small model
+  run-small-model-for-jfk:
+    name: run small model for jfk
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -15,8 +15,29 @@ jobs:
           model: small
           audio_path: ./testdata/jfk.wav
           debug: true
+          print_segment: true
 
       - name: show txt data
         run: |
           echo "show txt file"
           cat ./testdata/jfk.txt
+
+  run-small-model-for-m4a:
+    name: run small model for m4a
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: speech to text
+        uses: ./
+        with:
+          model: small
+          audio_path: ./testdata/Test4.m4a
+          debug: true
+          print_segment: true
+
+      - name: show txt data
+        run: |
+          echo "show txt file"
+          cat ./testdata/Test4.txt
