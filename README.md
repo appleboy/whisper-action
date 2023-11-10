@@ -35,7 +35,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: speech to text
-      uses: appleboy/whisper-action@v0.0.1
+      uses: appleboy/whisper-action@v0.1.0
       with:
         model: small
         youtube_url: https://www.youtube.com/watch?v=pTCxXZh6VyE
