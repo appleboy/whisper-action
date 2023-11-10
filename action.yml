@@ -27,6 +27,8 @@ inputs:
     description: 'translate from source language to english'
   cut_silences:
     description: 'cut silences'
+  prompt:
+    description: 'initial prompt'
 runs:
   using: 'docker'
   image: 'Dockerfile'

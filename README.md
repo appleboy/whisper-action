@@ -19,6 +19,7 @@ See [action.yml](./action.yml) for more detailed information.
 | youtube_url      | youtube url                                                  |         |
 | translate        | translate from source language to english.                   | false   |
 | cut_silences     | cut silences.                                                | false   |
+| prompt           | initial prompt text.                                         |         |
 
 ## Usage
 
