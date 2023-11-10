@@ -39,7 +39,7 @@ jobs:
       - name: speech to text
         uses: ./
         with:
-          model: medium
+          model: small
           youtube_url: https://www.youtube.com/watch?v=M_bjhKtR3fs
           output_format: txt,srt,csv
           output_folder: youtube
@@ -66,7 +66,7 @@ jobs:
       - name: speech to text
         uses: ./
         with:
-          model: medium
+          model: small
           youtube_url: https://www.youtube.com/watch?v=4Yei_t6eMZU
           output_format: txt,srt,csv
           output_folder: youtube

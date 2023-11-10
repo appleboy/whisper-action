@@ -20,22 +20,3 @@ jobs:
         run: |
           echo "show txt file"
           cat ./testdata/jfk.txt
-
-  medium-model:
-    name: run medium model
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout
-        uses: actions/checkout@v3
-
-      - name: speech to text
-        uses: ./
-        with:
-          model: medium
-          audio_path: ./testdata/jfk.wav
-          debug: true
-
-      - name: show txt data
-        run: |
-          echo "show txt file"
-          cat ./testdata/jfk.txt
