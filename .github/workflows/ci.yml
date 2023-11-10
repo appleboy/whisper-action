@@ -41,3 +41,17 @@ jobs:
         run: |
           echo "show txt file"
           cat ./testdata/Test4.txt
+
+      - name: cut silences
+        uses: ./
+        with:
+          model: small
+          audio_path: ./testdata/Test4.m4a
+          debug: true
+          print_segment: true
+          cut_silences: true
+
+      - name: show txt data
+        run: |
+          echo "show txt file"
+          cat ./testdata/Test4.txt
