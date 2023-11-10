@@ -25,6 +25,8 @@ inputs:
     description: 'youtube url'
   translate:
     description: 'translate from source language to english'
+  cut_silences:
+    description: 'cut silences'
 runs:
   using: 'docker'
   image: 'Dockerfile'
