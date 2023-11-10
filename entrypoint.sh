@@ -19,6 +19,14 @@ case "$model" in
       --output models/ggml-large.bin
       export INPUT_MODEL=models/ggml-large.bin
     ;;
+  large-v1) [ -f "models/ggml-large-v1.bin" ] || curl -LJ https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v1.bin \
+      --output models/ggml-large-v1.bin
+      export INPUT_MODEL=models/ggml-large-v1.bin
+    ;;
+  large-v2) [ -f "models/ggml-large-v2.bin" ] || curl -LJ https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v2.bin \
+      --output models/ggml-large-v2.bin
+      export INPUT_MODEL=models/ggml-large-v2.bin
+    ;;
 esac
 
 sh -c "/bin/go-whisper $*"
