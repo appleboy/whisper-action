@@ -1,2520 +1,2524 @@
 1
 00:00:00,000 --> 00:00:02,000
-Hello, everyone, I am Bui
+Hello, everyone, I am Buyi
 
 2
-00:00:02,000 --> 00:00:05,000
-This class can introduce a tool called
+00:00:02,000 --> 00:00:04,680
+This class will introduce a tool called
 
 3
-00:00:05,000 --> 00:00:07,000
-Use the TrueGPT Automation Developmental
+00:00:04,680 --> 00:00:07,020
+Use the TrueGPT automatic development
 
 4
-00:00:07,000 --> 00:00:09,000
+00:00:07,020 --> 00:00:08,520
 Create a coming message
 
 5
-00:00:09,000 --> 00:00:11,000
-I will explain to you later
+00:00:08,520 --> 00:00:11,640
+I will explain three important things later
 
 6
-00:00:11,000 --> 00:00:14,000
-The first is why is the code GBT
+00:00:11,640 --> 00:00:14,280
+The first is why the model is called GBT
 
 7
-00:00:14,000 --> 00:00:17,000
+00:00:14,280 --> 00:00:16,720
 Let's introduce the TrueGPT
 
 8
-00:00:17,000 --> 00:00:18,000
+00:00:16,720 --> 00:00:17,880
 How to use
 
 9
-00:00:18,000 --> 00:00:20,000
+00:00:17,880 --> 00:00:19,480
 Let's talk about the latest one
 
 10
-00:00:20,000 --> 00:00:21,000
-I use the new one
+00:00:19,480 --> 00:00:20,640
+I used the new one
 
 11
-00:00:21,000 --> 00:00:24,000
-OK, everyone should not be unfamiliar with TrueGPT
+00:00:20,640 --> 00:00:21,440
+OK
 
 12
-00:00:24,000 --> 00:00:28,000
-Currently, it is AI, AIGC, AI Generator, Content
+00:00:21,440 --> 00:00:23,960
+Everyone is not unfamiliar with TrueGPT
 
 13
-00:00:28,000 --> 00:00:31,000
-At present, when the red bomb is used
+00:00:23,960 --> 00:00:28,120
+Currently, it is AI, AIGC, AI generator content
 
 14
-00:00:31,000 --> 00:00:34,000
-All the software development workers in the world are thinking about
+00:00:28,120 --> 00:00:30,800
+At present, when the red bomb machine
 
 15
-00:00:34,000 --> 00:00:38,000
-How to use TrueGPT to help us develop the entire software
+00:00:30,800 --> 00:00:33,760
+All the software development in the world is thinking about
 
 16
-00:00:38,000 --> 00:00:40,000
-Or improve our
+00:00:33,760 --> 00:00:37,760
+How to use TrueGPT to help us develop the entire software process
 
 17
-00:00:40,000 --> 00:00:42,000
-Use or environment
+00:00:37,760 --> 00:00:39,760
+Or improve our
 
 18
-00:00:42,000 --> 00:00:45,000
-And I am here mainly to use TrueGPT to help you write
+00:00:39,760 --> 00:00:41,280
+Use or environment
 
 19
-00:00:45,000 --> 00:00:46,000
-Kit Carman Manager
+00:00:41,280 --> 00:00:42,760
+And I am here
 
 20
-00:00:46,000 --> 00:00:48,000
-How to write the Kit Carman Manager
+00:00:42,760 --> 00:00:44,880
+The most important thing is to use TrueGPT to help you write
 
 21
-00:00:48,000 --> 00:00:50,000
-You can refer to this article
+00:00:44,880 --> 00:00:46,200
+KitKamiMessage
 
 22
-00:00:50,000 --> 00:00:52,000
-Then I will put it in the link below
+00:00:46,200 --> 00:00:48,520
+How to write KitKamiMessage
 
 23
-00:00:52,000 --> 00:00:54,000
-OK, I am here
+00:00:48,520 --> 00:00:50,160
+You can refer to this article
 
 24
-00:00:54,000 --> 00:00:56,000
-I directly use the source written in the CEL
+00:00:50,160 --> 00:00:52,120
+Then I will probably put it below
 
 25
-00:00:56,000 --> 00:00:57,000
-The code GBT
+00:00:52,120 --> 00:00:52,600
+OK
 
 26
-00:00:57,000 --> 00:01:00,000
-If you like it, you can share it with me
+00:00:52,600 --> 00:00:53,360
+I am here
 
 27
-00:01:00,000 --> 00:01:02,000
-The main point is to help the software
+00:00:53,360 --> 00:00:54,680
+I directly use the structure
 
 28
-00:01:02,000 --> 00:01:04,000
-The software is to organize the development content
+00:00:54,680 --> 00:00:57,480
+Write a CEO to provide a code GBT
 
 29
-00:01:04,000 --> 00:01:06,000
-You can see the code GBT
+00:00:57,480 --> 00:00:59,920
+If you like it, you can share it with me
 
 30
-00:01:06,000 --> 00:01:08,000
-The effect of creating Carman Manager
+00:00:59,920 --> 00:01:02,640
+The most important thing is to help the software
 
 31
-00:01:08,000 --> 00:01:11,000
-That is, you write the code you wrote today
+00:01:02,640 --> 00:01:04,680
+The software control is to organize the content
 
 32
-00:01:11,000 --> 00:01:13,000
-You have to write to organize Carman Manager
+00:01:04,680 --> 00:01:06,440
+You can see the effect of code GBT
 
 33
-00:01:13,000 --> 00:01:15,000
-For example, what does this function do
+00:01:06,440 --> 00:01:08,400
+Create KitKamiMessage
 
 34
-00:01:15,000 --> 00:01:18,000
-Or how to solve this bug
+00:01:08,400 --> 00:01:11,000
+That is, you write the code today
 
 35
-00:01:18,000 --> 00:01:20,000
-Then you may want to say how to
+00:01:11,000 --> 00:01:13,400
+You have to organize KitKamiMessage
 
 36
-00:01:20,000 --> 00:01:22,000
-Write the content
+00:01:13,400 --> 00:01:14,880
+For example, what does this function do
 
 37
-00:01:22,000 --> 00:01:24,000
-Let everyone check it out later
+00:01:14,880 --> 00:01:16,440
+Or this bug
 
 38
-00:01:24,000 --> 00:01:25,000
-Very good
+00:01:16,440 --> 00:01:18,200
+How to solve it
 
 39
-00:01:25,000 --> 00:01:27,000
-Then we have no code GBT
+00:01:18,200 --> 00:01:19,560
+Then you may want to say
 
 40
-00:01:27,000 --> 00:01:29,000
-I didn't use AI to help you to see the whole
+00:01:19,560 --> 00:01:22,040
+How to write this content
 
 41
-00:01:29,000 --> 00:01:30,000
-Kit different content
+00:01:22,040 --> 00:01:23,800
+Let everyone check it later
 
 42
-00:01:30,000 --> 00:01:33,000
-After that, we help to automatically create these
+00:01:23,800 --> 00:01:24,760
+Very good
 
 43
-00:01:33,000 --> 00:01:35,000
-You see this is the effect below
+00:01:24,760 --> 00:01:26,400
+Then we don't have code GBT
 
 44
-00:01:35,000 --> 00:01:37,000
-You see all of my cards here
+00:01:26,400 --> 00:01:30,360
+We use AI to help you to see the whole KitKamiMessage
 
 45
-00:01:37,000 --> 00:01:40,000
-All use this tool called code GBT
+00:01:30,360 --> 00:01:32,520
+We help to automatically create this content
 
 46
-00:01:40,000 --> 00:01:42,000
-Help me produce it, but not me
+00:01:32,520 --> 00:01:34,720
+You see this is the bottom effect
 
 47
-00:01:42,000 --> 00:01:45,000
-That's basically what 8 or 9 are all right
+00:01:34,720 --> 00:01:37,440
+You see all of my KamiMessage
 
 48
-00:01:45,000 --> 00:01:47,000
-That's basically what you want to do
+00:01:37,440 --> 00:01:39,880
+All use this set of tools called code GBT
 
 49
-00:01:47,000 --> 00:01:49,000
-Just go to do what you want
+00:01:39,880 --> 00:01:40,720
+Help me create
 
 50
-00:01:49,000 --> 00:01:50,000
-So basically if you are
+00:01:40,720 --> 00:01:42,200
+Not me
 
 51
-00:01:50,000 --> 00:01:52,000
-It takes a long time to write the code
+00:01:42,200 --> 00:01:43,400
+That's basically
 
 52
-00:01:52,000 --> 00:01:54,000
-Then it's also
+00:01:43,400 --> 00:01:44,680
+89% is correct
 
 53
-00:01:54,000 --> 00:01:55,000
-I hope you write it yourself
+00:01:44,680 --> 00:01:45,160
+That's basically
 
 54
-00:01:55,000 --> 00:01:57,000
-Carman Manager is helpful to the team
+00:01:45,160 --> 00:01:46,840
+You just have to slightly adjust yourself
 
 55
-00:01:57,000 --> 00:01:58,000
-This tool can help you to
+00:01:46,840 --> 00:01:48,520
+You can do what you want
 
 56
-00:01:58,000 --> 00:02:01,000
-It takes a lot of time to improve
+00:01:48,520 --> 00:01:50,360
+So basically if you are
 
 57
-00:02:01,000 --> 00:02:02,000
-good
+00:01:50,360 --> 00:01:52,200
+Long time in the code for others
 
 58
-00:02:02,000 --> 00:02:04,000
-I don't want to write code GBT
+00:01:52,200 --> 00:01:53,160
+That's also
 
 59
-00:02:04,000 --> 00:02:06,000
-In fact, the platform of Github has already
+00:01:53,160 --> 00:01:55,280
+I hope you write your own KamiMessage
 
 60
-00:02:06,000 --> 00:02:07,000
-There are more similar tools like this
+00:01:55,280 --> 00:01:57,240
+If you have any help
 
 61
-00:02:07,000 --> 00:02:09,000
-Why do you want to re-develop it
+00:01:57,240 --> 00:01:59,440
+This tool can help you to improve
 
 62
-00:02:09,000 --> 00:02:10,000
-The first one is the cross-platform platform
+00:01:59,440 --> 00:02:01,440
+There are many times
 
 63
-00:02:10,000 --> 00:02:18,000
-I need to use the source of the cross-platform platform to avoid the different platforms and different environments
+00:02:01,440 --> 00:02:02,080
+good
 
 64
-00:02:18,000 --> 00:02:20,000
-The second one is the future planning
+00:02:02,080 --> 00:02:03,080
+Then
 
 65
-00:02:20,000 --> 00:02:23,000
-The next Github, Github, Bbac and other Github platforms
+00:02:03,080 --> 00:02:04,480
+I don't write code GBT
 
 66
-00:02:23,000 --> 00:02:25,000
-After sending PR, you can use the chat
+00:02:04,480 --> 00:02:07,440
+In fact, there are already more than this kind of tools on the GitHub platform
 
 67
-00:02:25,000 --> 00:02:28,000
-Gbt to help you to organize the content of Carman
+00:02:07,440 --> 00:02:08,960
+Why do you want to re-develop it
 
 68
-00:02:28,000 --> 00:02:30,000
-And automatically leave a message
+00:02:08,960 --> 00:02:10,280
+The first one is the cross-platform platform
 
 69
-00:02:30,000 --> 00:02:32,000
-So this tool
+00:02:10,280 --> 00:02:12,720
+I need to use the source of the code to distribute it to the private sector
 
 70
-00:02:32,000 --> 00:02:33,000
-So my development tool is not just
+00:02:12,720 --> 00:02:13,680
+To avoid the different platforms
 
 71
-00:02:33,000 --> 00:02:36,000
-Let the developer be able to produce Carman Manager
+00:02:13,680 --> 00:02:14,960
+The different environments
 
 72
-00:02:36,000 --> 00:02:37,000
-I hope in the future
+00:02:14,960 --> 00:02:18,320
+This is easier for developers who do not receive the environment
 
 73
-00:02:37,000 --> 00:02:41,000
-Can help the whole team to do the code review
+00:02:18,320 --> 00:02:20,320
+The second one is that my future plans are to say
 
 74
-00:02:41,000 --> 00:02:43,000
-The third reason is that in the future
+00:02:20,320 --> 00:02:23,080
+After the GitHub, the Git, the Bbac and other Git platforms
 
 75
-00:02:43,000 --> 00:02:46,000
-I hope it's not just the open AI API
+00:02:23,080 --> 00:02:25,640
+After sending PR, you can use the chat GBT
 
 76
-00:02:46,000 --> 00:02:48,000
-The Gbt API
+00:02:25,640 --> 00:02:28,720
+Help you to organize the content of KamiMessage
 
 77
-00:02:48,000 --> 00:02:50,000
-Currently in the A9 API
+00:02:28,720 --> 00:02:29,920
+And the chat
 
 78
-00:02:50,000 --> 00:02:51,000
-Open AI has been supported
+00:02:29,920 --> 00:02:31,800
+Then this tool
 
 79
-00:02:51,000 --> 00:02:53,000
-Okay, let's talk about how to use it
+00:02:31,800 --> 00:02:34,160
+So my development tool is not just for developers
 
 80
-00:02:53,000 --> 00:02:55,000
-Actually, it's very simple
+00:02:34,160 --> 00:02:36,120
+Can automatically produce KamiMessage
 
 81
-00:02:55,000 --> 00:02:58,000
-There will be a Linux Mac OS Windows every time
+00:02:36,120 --> 00:02:37,800
+In the future, I hope that it can
 
 82
-00:02:58,000 --> 00:03:00,000
-Download the corresponding execution file
+00:02:37,800 --> 00:02:41,040
+Can be a tool to help you to do the code review
 
 83
-00:03:00,000 --> 00:03:02,000
-You just need to download it and send it to BIN
+00:02:41,040 --> 00:02:42,240
+Then the third reason is
 
 84
-00:03:02,000 --> 00:03:05,000
-Then go to the open AI website and create an API key
+00:02:42,240 --> 00:02:43,280
+In the future
 
 85
-00:03:05,000 --> 00:03:08,000
-The first month seems to be free 18 USD
+00:02:43,280 --> 00:02:45,800
+I hope it's not just the open AI API
 
 86
-00:03:08,000 --> 00:03:10,000
-But I think this is already cheap
+00:02:45,800 --> 00:02:47,800
+The chat GBT API
 
 87
-00:03:10,000 --> 00:03:11,000
-In fact, every day you just
+00:02:47,800 --> 00:02:49,720
+Currently in the A9 API
 
 88
-00:03:11,000 --> 00:03:15,000
-No matter how much you have, it is now a true Gbt 3.5 Turbo version
+00:02:49,720 --> 00:02:51,280
+Open AI has been supported
 
 89
-00:03:15,000 --> 00:03:16,000
-It's actually very cheap
+00:02:51,280 --> 00:02:53,520
+Okay, let's talk about the way to use it
 
 90
-00:03:16,000 --> 00:03:18,000
-So basically you
+00:02:53,520 --> 00:02:54,440
+Actually, it's very simple
 
 91
-00:03:18,000 --> 00:03:20,000
-The message of Carman
+00:02:54,440 --> 00:02:56,400
+Every time there will be
 
 92
-00:03:20,000 --> 00:03:23,000
-He saw the token number, actually not a dollar
+00:02:56,400 --> 00:02:57,800
+Linux Mac OS Windows
 
 93
-00:03:23,000 --> 00:03:25,000
-Quite cheap, so everyone put it on the credit card
+00:02:57,800 --> 00:02:59,920
+Download the corresponding private sector
 
 94
-00:03:25,000 --> 00:03:26,000
-Because for you
+00:02:59,920 --> 00:03:01,840
+You just need to download and send it to BIM
 
 95
-00:03:26,000 --> 00:03:29,000
-It's very useful for your writing Carman Manager
+00:03:01,840 --> 00:03:03,360
+Then go to the open AI website
 
 96
-00:03:29,000 --> 00:03:31,000
-And you don't have to waste time to organize your own
+00:03:03,360 --> 00:03:05,360
+Then you can create an API key
 
 97
-00:03:31,000 --> 00:03:33,000
-Write things
+00:03:05,360 --> 00:03:07,960
+Every month seems to be free 18 USD
 
 98
-00:03:33,000 --> 00:03:36,000
-Okay, then everyone can actually use
+00:03:07,960 --> 00:03:10,160
+But I think this is already cheap
 
 99
-00:03:36,000 --> 00:03:38,000
-Uh, Blue to install
+00:03:10,160 --> 00:03:11,560
+In fact, every day you know
 
 100
-00:03:38,000 --> 00:03:39,000
-We can take a look
+00:03:11,560 --> 00:03:12,880
+No matter how much you Kami
 
 101
-00:03:39,000 --> 00:03:41,000
-Let's take a look at this website
+00:03:12,880 --> 00:03:15,360
+Now it's a true GBT 3.5 Turbo version
 
 102
-00:03:41,000 --> 00:03:45,000
-Okay, it's easy
+00:03:15,360 --> 00:03:16,720
+It's actually very cheap
 
 103
-00:03:45,000 --> 00:03:47,000
-You can download from this list
-
-104
-00:03:47,000 --> 00:03:49,000
-To the corresponding execution file
-
-105
-00:03:49,000 --> 00:04:01,000
-You can download the
-
-106
-00:04:01,000 --> 00:04:03,000
-Use the blue install
-
-107
-00:04:03,000 --> 00:04:05,000
-That's basically blue tab
-
-108
-00:04:05,000 --> 00:04:06,000
-Apple Boy's tab
-
-109
-00:04:06,000 --> 00:04:08,000
-Then install
-
-110
-00:04:08,000 --> 00:04:09,000
-Then the next step is
-
-111
-00:04:09,000 --> 00:04:11,000
-The next step is how to use
-
-112
-00:04:11,000 --> 00:04:13,000
-Set up your API key
-
-113
-00:04:13,000 --> 00:04:14,000
-That's very simple
-
-114
-00:04:14,000 --> 00:04:17,000
-You can continue to use it after you create your API key
-
-115
-00:04:17,000 --> 00:04:18,000
-You just need to export this variable
-
-116
-00:04:18,000 --> 00:04:21,000
-After that, you will go to do the post-production thing
-
-117
-00:04:21,000 --> 00:04:23,000
-Okay, let's see how to use it in the bottom
-
-118
-00:04:23,000 --> 00:04:25,000
-Okay, let's take a look
-
-119
-00:04:25,000 --> 00:04:28,000
-Let's take a look at the current
-
-120
-00:04:28,000 --> 00:04:29,000
-Carmineo
-
-121
-00:04:29,000 --> 00:04:30,000
-Okay, because it's here
-
-122
-00:04:30,000 --> 00:04:32,000
-I changed one thing up here
-
-123
-00:04:32,000 --> 00:04:35,000
-Then let's take a look at the GIT leaf
-
-124
-00:04:35,000 --> 00:04:37,000
-Okay, look at me
-
-125
-00:04:37,000 --> 00:04:38,000
-After I changed this
-
-126
-00:04:38,000 --> 00:04:40,000
-Let's take a look at what it's going to do
-
-127
-00:04:40,000 --> 00:04:42,000
-Let's set it to
-
-128
-00:04:42,000 --> 00:04:43,000
-The third state
-
-129
-00:04:43,000 --> 00:04:45,000
-Okay, now we have code gbt
-
-130
-00:04:45,000 --> 00:04:46,000
-This Carmineo
-
-131
-00:04:46,000 --> 00:04:48,000
-You can play hlp
-
-132
-00:04:48,000 --> 00:04:50,000
-You can see that it has a lot of
-
-133
-00:04:50,000 --> 00:04:51,000
-Carme can use
-
-134
-00:04:51,000 --> 00:04:52,000
-The first Carmi
-
-135
-00:04:52,000 --> 00:04:54,000
-He'll help you to auto generate a Carmi Mesh
-
-136
-00:04:54,000 --> 00:04:56,000
-Then you can set your own Carmineo
-
-137
-00:04:56,000 --> 00:04:58,000
-Let me introduce this a little bit
-
-138
-00:04:58,000 --> 00:05:01,000
-Then you can also use the GIT hook method
-
-139
-00:05:01,000 --> 00:05:03,000
-Then this is less useful
-
-140
-00:05:03,000 --> 00:05:05,000
-If you need it, you can also use it
-
-141
-00:05:05,000 --> 00:05:08,000
-He will help you to set up a GIT hook
-
-142
-00:05:08,000 --> 00:05:09,000
-In your store
-
-143
-00:05:09,000 --> 00:05:10,000
-The store's GIT
-
-144
-00:05:10,000 --> 00:05:13,000
-Go to change your Carmi hook
-
-145
-00:05:13,000 --> 00:05:15,000
-Carmi hook is that you will automatically
-
-146
-00:05:15,000 --> 00:05:17,000
-Send the message to Carmi
-
-147
-00:05:17,000 --> 00:05:19,000
-Then there is one more important function
-
-148
-00:05:19,000 --> 00:05:21,000
-It can go to the Reunit
-
-149
-00:05:21,000 --> 00:05:23,000
-So this is what David will introduce
-
-150
-00:05:23,000 --> 00:05:24,000
-Let's take a look at it
-
-151
-00:05:24,000 --> 00:05:26,000
-Because we are now in a stage state
-
-152
-00:05:26,000 --> 00:05:28,000
-There is a CND
-
-153
-00:05:28,000 --> 00:05:29,000
-The structure is changed
-
-154
-00:05:29,000 --> 00:05:31,000
-We will open the content
-
-155
-00:05:31,000 --> 00:05:35,000
-Okay, in fact, it is to change
-
-156
-00:05:35,000 --> 00:05:37,000
-Change a constant
-
-157
-00:05:37,000 --> 00:05:38,000
-Change it to a
-
-158
-00:05:38,000 --> 00:05:39,000
-The address of your own address
-
-159
-00:05:39,000 --> 00:05:41,000
-Okay, then we only use the code gbt
-
-160
-00:05:41,000 --> 00:05:42,000
-Carmi
-
-161
-00:05:42,000 --> 00:05:44,000
-So he will automatically
-
-162
-00:05:44,000 --> 00:05:46,000
-Use the 3.5gbt turbo version
-
-163
-00:05:46,000 --> 00:05:47,000
-After that
-
-164
-00:05:47,000 --> 00:05:48,000
-Next, he will tell you
-
-165
-00:05:48,000 --> 00:05:49,000
-What is Carmi's summary
-
-166
-00:05:49,000 --> 00:05:50,000
-He will tell you
-
-167
-00:05:50,000 --> 00:05:51,000
-Up the environment
-
-168
-00:05:51,000 --> 00:05:54,000
-Marible Preface for Consistency
-
-169
-00:05:54,000 --> 00:05:55,000
-Then he will tell you
-
-170
-00:05:55,000 --> 00:05:56,000
-The content in it is
-
-171
-00:05:56,000 --> 00:05:58,000
-I changed the GitHub
-
-172
-00:05:58,000 --> 00:05:59,000
-Change the input
-
-173
-00:05:59,000 --> 00:06:00,000
-Change the weight to the bottom
-
-174
-00:06:00,000 --> 00:06:01,000
-The small write is heavy
-
-175
-00:06:01,000 --> 00:06:03,000
-Then after finishing it
-
-176
-00:06:03,000 --> 00:06:04,000
-Basically write it to you
-
-177
-00:06:04,000 --> 00:06:05,000
-Carmi message
-
-178
-00:06:05,000 --> 00:06:06,000
-You automatically Carmi
-
-179
-00:06:06,000 --> 00:06:07,000
-So you can see
-
-180
-00:06:07,000 --> 00:06:09,000
-You are automatically changed here
-
-181
-00:06:09,000 --> 00:06:10,000
-like this
-
-182
-00:06:10,000 --> 00:06:11,000
-good
-
-183
-00:06:11,000 --> 00:06:12,000
-good
-
-184
-00:06:12,000 --> 00:06:14,000
-If you are not satisfied with this message
-
-185
-00:06:14,000 --> 00:06:16,000
-You can use the same method
-
-186
-00:06:16,000 --> 00:06:18,000
-You can go down
-
-187
-00:06:18,000 --> 00:06:19,000
-This
-
-188
-00:06:19,000 --> 00:06:20,000
-That's it
-
-189
-00:06:20,000 --> 00:06:22,000
-It's the same as your GIT Carmi
-
-190
-00:06:22,000 --> 00:06:24,000
-You will change the Carmi message
-
-191
-00:06:24,000 --> 00:06:25,000
-Good
-
-192
-00:06:25,000 --> 00:06:26,000
-We will do it next
-
-193
-00:06:26,000 --> 00:06:27,000
-He must be the new
-
-194
-00:06:27,000 --> 00:06:29,000
-GPD 3.5 Turbo version
-
-195
-00:06:29,000 --> 00:06:30,000
-After that
-
-196
-00:06:30,000 --> 00:06:32,000
-He will go to change a new message
-
-197
-00:06:32,000 --> 00:06:33,000
-good
-
-198
-00:06:33,000 --> 00:06:34,000
-Until you change
-
-199
-00:06:34,000 --> 00:06:35,000
-What you want
-
-200
-00:06:35,000 --> 00:06:36,000
-The message you want
-
-201
-00:06:36,000 --> 00:06:38,000
-So you can keep changing
-
-202
-00:06:38,000 --> 00:06:39,000
-Of course
-
-203
-00:06:39,000 --> 00:06:40,000
-This is
-
-204
-00:06:40,000 --> 00:06:42,000
-Sign up to the token you calculated
-
-205
-00:06:42,000 --> 00:06:43,000
-So you see
-
-206
-00:06:43,000 --> 00:06:44,000
-Here I tell you
-
-207
-00:06:44,000 --> 00:06:47,000
-How much is your Pond token
-
-208
-00:06:47,000 --> 00:06:49,000
-Then how much is your comp
-
-209
-00:06:49,000 --> 00:06:50,000
-And then here
-
-210
-00:06:50,000 --> 00:06:52,000
-Total token is these two
-
-211
-00:06:52,000 --> 00:06:53,000
-That's your last
-
-212
-00:06:53,000 --> 00:06:54,000
-You may have to pay the maximum
-
-213
-00:06:54,000 --> 00:06:55,000
-Then the next one is
-
-214
-00:06:55,000 --> 00:06:57,000
-Each 1000 tokens is 0.002
-
-215
-00:06:57,000 --> 00:06:58,000
-That's very cheap
-
-216
-00:06:58,000 --> 00:06:59,000
+00:03:16,720 --> 00:03:17,920
 So basically you
 
-217
-00:06:59,000 --> 00:07:00,000
-No matter how much you use
-
-218
-00:07:00,000 --> 00:07:01,000
-Almost not much
-
-219
-00:07:01,000 --> 00:07:02,000
-More than a dollar
-
-220
-00:07:02,000 --> 00:07:04,000
-So you can save
-
-221
-00:07:04,000 --> 00:07:05,000
-The money you save every day
-
-222
-00:07:05,000 --> 00:07:06,000
-To order a cup of drinks
-
-223
-00:07:06,000 --> 00:07:07,000
-In fact, you can save a day
-
-224
-00:07:07,000 --> 00:07:08,000
-How much you save
-
-225
-00:07:08,000 --> 00:07:09,000
-Carmi message
-
-226
-00:07:09,000 --> 00:07:11,000
-So I think it's basically
-
-227
-00:07:11,000 --> 00:07:12,000
-Pretty convenient
-
-228
-00:07:12,000 --> 00:07:13,000
-Then the other
-
-229
-00:07:13,000 --> 00:07:15,000
-Let's take a look at the website
-
-230
-00:07:15,000 --> 00:07:16,000
-How to use
-
-231
-00:07:16,000 --> 00:07:17,000
-good
-
-232
-00:07:17,000 --> 00:07:19,000
-In fact, we can go through a
-
-233
-00:07:19,000 --> 00:07:20,000
-Code GPD
-
-234
-00:07:20,000 --> 00:07:21,000
-Go to use the comp
-
-235
-00:07:21,000 --> 00:07:22,000
-This is the point of the chain
-
-236
-00:07:22,000 --> 00:07:24,000
-To set up some environment
-
-237
-00:07:24,000 --> 00:07:25,000
-For example
-
-238
-00:07:25,000 --> 00:07:26,000
-Okay, I wrote down the opa
-
-239
-00:07:26,000 --> 00:07:28,000
-After writing it in
-
-240
-00:07:28,000 --> 00:07:30,000
-Basically, I don't have to go to the eSport anymore
-
-241
-00:07:30,000 --> 00:07:31,000
-Because it will directly
-
-242
-00:07:31,000 --> 00:07:33,000
-The store under the roof
-
-243
-00:07:33,000 --> 00:07:35,000
-Code GPD store
-
-244
-00:07:35,000 --> 00:07:36,000
-Code GPD store
-
-245
-00:07:36,000 --> 00:07:38,000
-Go to write in these settings
-
-246
-00:07:38,000 --> 00:07:39,000
-Then it's automatic
-
-247
-00:07:39,000 --> 00:07:41,000
-So basically you don't have to go to the sign up
-
-248
-00:07:41,000 --> 00:07:42,000
-Then what about
-
-249
-00:07:42,000 --> 00:07:43,000
-OpenAI
-
-250
-00:07:43,000 --> 00:07:44,000
-OpenAI has a window
-
-251
-00:07:44,000 --> 00:07:45,000
-Base
-
-252
-00:07:45,000 --> 00:07:47,000
-This is the reason why this window
-
-253
-00:07:47,000 --> 00:07:48,000
-The reason is that
-
-254
-00:07:48,000 --> 00:07:49,000
-You see all the companies now
-
-255
-00:07:49,000 --> 00:07:51,000
-Almost all the companies in the network
-
-256
-00:07:51,000 --> 00:07:53,000
-OpenAI's network is blocked
-
-257
-00:07:53,000 --> 00:07:54,000
-After that
-
-258
-00:07:54,000 --> 00:07:55,000
-Everyone is crazy
-
-259
-00:07:55,000 --> 00:07:56,000
-The fake
-
-260
-00:07:56,000 --> 00:07:57,000
-Forward proxy
-
-261
-00:07:57,000 --> 00:07:58,000
-Then you can change the forward proxy
-
-262
-00:07:58,000 --> 00:07:59,000
-You can change this point
-
-263
-00:07:59,000 --> 00:08:00,000
-The best UI
-
-264
-00:08:00,000 --> 00:08:02,000
-Then I guess at the beginning
-
-265
-00:08:02,000 --> 00:08:03,000
-OpenAI should have
-
-266
-00:08:03,000 --> 00:08:04,000
-Found this problem
-
-267
-00:08:04,000 --> 00:08:06,000
-Just when the file is out
-
-268
-00:08:06,000 --> 00:08:08,000
-He told me that he can
-
-269
-00:08:08,000 --> 00:08:10,000
-Everyone's best UI can be changed
-
-270
-00:08:10,000 --> 00:08:11,000
-So you can change it
-
-271
-00:08:11,000 --> 00:08:12,000
-What you want
-
-272
-00:08:12,000 --> 00:08:14,000
-Then everyone can use this free
-
-273
-00:08:14,000 --> 00:08:16,000
-Many people say that
-
-274
-00:08:16,000 --> 00:08:18,000
-What if my key is stolen
-
-275
-00:08:18,000 --> 00:08:20,000
-If I don't believe it, I'll just go and fake it myself
-
-276
-00:08:20,000 --> 00:08:22,000
-Then this is a Chinese developer
-
-277
-00:08:22,000 --> 00:08:23,000
-The price
-
-278
-00:08:23,000 --> 00:08:25,000
-Then he is a Dino developer
-
-279
-00:08:25,000 --> 00:08:26,000
-Ok
-
-280
-00:08:26,000 --> 00:08:28,000
-Then you can put some
-
-281
-00:08:28,000 --> 00:08:29,000
-Some data
-
-282
-00:08:29,000 --> 00:08:30,000
-Write down
-
-283
-00:08:30,000 --> 00:08:31,000
-API key
-
-284
-00:08:31,000 --> 00:08:32,000
-And your organization
-
-285
-00:08:32,000 --> 00:08:33,000
-Just assume that your account
-
-286
-00:08:33,000 --> 00:08:35,000
-There are more organizations
-
-287
-00:08:35,000 --> 00:08:36,000
-Remember to set this
-
-288
-00:08:36,000 --> 00:08:37,000
-Ok
-
-289
-00:08:37,000 --> 00:08:39,000
-Then you can use the model you want to use
-
-290
-00:08:39,000 --> 00:08:41,000
-Then you can use GPD 3.5 now
-
-291
-00:08:41,000 --> 00:08:42,000
-Turbo
-
-292
-00:08:42,000 --> 00:08:44,000
-Or you need a larger token
-
-293
-00:08:44,000 --> 00:08:45,000
-Because GPD 3.5
-
-294
-00:08:45,000 --> 00:08:47,000
-His token is the token of 409
-
-295
-00:08:47,000 --> 00:08:49,000
-Then you can go to GPD 4
-
-296
-00:08:49,000 --> 00:08:51,000
-Maybe you can use 8K token
-
-297
-00:08:51,000 --> 00:08:53,000
-Or 32K token
-
-298
-00:08:53,000 --> 00:08:55,000
-But his cost is
-
-299
-00:08:55,000 --> 00:08:56,000
-One is 15 times
-
-300
-00:08:56,000 --> 00:08:57,000
-One is 30 times
-
-301
-00:08:57,000 --> 00:08:58,000
-So everyone, be careful to use it
-
-302
-00:08:58,000 --> 00:08:59,000
-If you need it
-
-303
-00:08:59,000 --> 00:09:00,000
-But basically
-
-304
-00:09:00,000 --> 00:09:01,000
-If you just want to do
-
-305
-00:09:01,000 --> 00:09:02,000
-The card version
-
-306
-00:09:02,000 --> 00:09:03,000
-If you use GPD 3.5
-
-307
-00:09:03,000 --> 00:09:05,000
-The terminal is very, very useful
-
-308
-00:09:05,000 --> 00:09:07,000
-Then in terms of language
-
-309
-00:09:07,000 --> 00:09:08,000
-You basically use it now
-
-310
-00:09:08,000 --> 00:09:09,000
-English
-
-311
-00:09:09,000 --> 00:09:11,000
-You can change your card version
-
-312
-00:09:11,000 --> 00:09:12,000
-Chinese
-
-313
-00:09:12,000 --> 00:09:13,000
-Chinese
-
-314
-00:09:13,000 --> 00:09:14,000
-Chinese
-
-315
-00:09:14,000 --> 00:09:15,000
-Chinese
-
-316
-00:09:15,000 --> 00:09:16,560
-You can put it here
-
-317
-00:09:16,560 --> 00:09:19,620
-And then I have one more
-
-318
-00:09:19,620 --> 00:09:21,600
-Plask function or Sakir!
-
-319
-00:09:21,600 --> 00:09:25,800
-It's a link, so you're doing these Sakir and Plask
-
-320
-00:09:25,800 --> 00:09:29,580
-You can vote for this way to link this OpenAI UI
-
-321
-00:09:29,580 --> 00:09:31,000
-and then it's timeout
-
-322
-00:09:31,000 --> 00:09:32,440
-This timeout is to pretend that your
-
-323
-00:09:32,440 --> 00:09:35,420
-Your token needs to look very much
-
-324
-00:09:35,420 --> 00:09:39,280
-Sometimes OpenAI will be noisy because there is too much of OpenAI
-
-325
-00:09:39,280 --> 00:09:41,020
-So sometimes it will be very slow
-
-326
-00:09:41,020 --> 00:09:43,500
-So you just turn this type of high
-
-327
-00:09:43,500 --> 00:09:45,240
-Then there is Miss Token
-
-328
-00:09:45,240 --> 00:09:46,320
-This token is that
-
-329
-00:09:46,320 --> 00:09:47,960
-When you reply
-
-330
-00:09:47,960 --> 00:09:49,320
-These words are too sour
-
-331
-00:09:49,320 --> 00:09:51,640
-Is it in this compression token?
-
-332
-00:09:51,640 --> 00:09:55,560
-If you don't use this token, you can increase it from here
-
-333
-00:09:55,560 --> 00:09:56,920
-The default is 300
-
-334
-00:09:56,920 --> 00:09:58,600
-But the main reason for adjusting this is
-
-335
-00:09:58,600 --> 00:10:01,480
-Because you need this when you are doing code reviews
-
-336
-00:10:01,480 --> 00:10:02,160
-good
-
-337
-00:10:02,160 --> 00:10:05,080
-Then there is Temperature
-
-338
-00:10:05,080 --> 00:10:08,120
-This is the basic OpenAI parameters
-
-339
-00:10:08,120 --> 00:10:09,300
-0.7
-
-340
-00:10:09,300 --> 00:10:12,200
-0.0 to 0.2
-
-341
-00:10:12,200 --> 00:10:14,460
-Then the higher the answer, the higher the answer
-
-342
-00:10:14,460 --> 00:10:15,980
-So don't be too high or too low
-
-343
-00:10:15,980 --> 00:10:19,380
-So 0.7 should be the parameters of this network
-
-344
-00:10:19,380 --> 00:10:20,740
-There is another called
-
-345
-00:10:20,740 --> 00:10:21,740
-Diff Unify
-
-346
-00:10:21,740 --> 00:10:22,460
-This thing
-
-347
-00:10:22,460 --> 00:10:23,860
-I'll cut this
-
-348
-00:10:23,860 --> 00:10:25,260
-You can look at it
-
-349
-00:10:25,260 --> 00:10:26,920
-Sometimes I put this
-
-350
-00:10:26,920 --> 00:10:28,020
-Ok, this is good
-
-351
-00:10:28,020 --> 00:10:30,620
-You will see that my Diff Nino has
-
-352
-00:10:30,620 --> 00:10:33,620
-The front and the back are all leaked
-
-353
-00:10:33,620 --> 00:10:35,940
-This is the thing that Git predicted
-
-354
-00:10:35,940 --> 00:10:37,420
-But your Diff Nino
-
-355
-00:10:37,420 --> 00:10:39,380
-So it's like this in the Diff
-
-356
-00:10:39,380 --> 00:10:41,360
-If your Git Diff
-
-357
-00:10:41,360 --> 00:10:43,360
-If you set this Unify to 0
-
-358
-00:10:43,360 --> 00:10:44,360
-Basically
-
-359
-00:10:44,360 --> 00:10:47,640
-It will only leak this red and green
-
-360
-00:10:47,640 --> 00:10:48,920
-Can we try it
-
-361
-00:10:48,920 --> 00:10:53,600
-Ok, basically it has a
-
-362
-00:10:53,600 --> 00:10:56,160
-There is a Diff thing
-
-363
-00:10:56,160 --> 00:10:57,160
-Anyway, this is
-
-364
-00:10:57,160 --> 00:10:59,560
-This is basically the adjustment
-
-365
-00:10:59,560 --> 00:11:00,800
-Can you think about it?
-
-366
-00:11:00,800 --> 00:11:01,440
-He adjusts it
-
-367
-00:11:01,440 --> 00:11:03,840
-Do I want to see the front row
-
-368
-00:11:03,840 --> 00:11:05,040
-And the back row
-
-369
-00:11:05,040 --> 00:11:06,400
-The prediction is 3 rows
-
-370
-00:11:06,400 --> 00:11:07,960
-So basically you adjust it
-
-371
-00:11:07,960 --> 00:11:09,420
-We send it to token
-
-372
-00:11:09,420 --> 00:11:10,740
-We send it to OpenAI
-
-373
-00:11:10,740 --> 00:11:12,540
-You can reduce the token amount
-
-374
-00:11:12,540 --> 00:11:14,540
-So this is also the benefit of reducing the token amount
-
-375
-00:11:14,540 --> 00:11:15,580
-So if your
-
-376
-00:11:15,580 --> 00:11:17,740
-Your Diff Nino is very long
-
-377
-00:11:17,740 --> 00:11:18,940
-Basically you can adjust it a little bit
-
-378
-00:11:18,940 --> 00:11:20,820
-It will save some tokens
-
-379
-00:11:20,820 --> 00:11:22,740
-Then basically I think you can set it to 0
-
-380
-00:11:22,740 --> 00:11:23,580
-Because
-
-381
-00:11:23,580 --> 00:11:25,300
-Basically
-
-382
-00:11:25,300 --> 00:11:28,500
-OpenAI is looking at the front and the back
-
-383
-00:11:28,500 --> 00:11:30,860
-The whole answer is not very big
-
-384
-00:11:30,860 --> 00:11:32,300
-So basically I set it to 0
-
-385
-00:11:32,300 --> 00:11:33,900
-Ok
-
-386
-00:11:33,900 --> 00:11:35,300
-Then there is Isqulis
-
-387
-00:11:35,300 --> 00:11:37,580
-Ok, I think this is very useful
-
-388
-00:11:37,580 --> 00:11:39,300
-Then what does this thing do
-
-389
-00:11:39,300 --> 00:11:40,300
-Suppose you change things
-
-390
-00:11:40,300 --> 00:11:42,020
-For example, that kind of package
-
-391
-00:11:42,020 --> 00:11:42,900
-Point decision
-
-392
-00:11:42,900 --> 00:11:44,220
-Or package
-
-393
-00:11:44,220 --> 00:11:45,020
-That is
-
-394
-00:11:45,020 --> 00:11:45,860
-NPN
-
-395
-00:11:45,860 --> 00:11:46,660
-NPN
-
-396
-00:11:46,660 --> 00:11:47,660
-Confirmation of the decision
-
-397
-00:11:47,660 --> 00:11:48,740
-That actually has no use
-
-398
-00:11:48,740 --> 00:11:50,180
-Or the structure inside
-
-399
-00:11:50,180 --> 00:11:51,020
-For example, this structure
-
-400
-00:11:51,020 --> 00:11:52,140
-The point of the structure
-
-401
-00:11:52,140 --> 00:11:53,780
-This thing is actually no use
-
-402
-00:11:53,780 --> 00:11:54,820
-Then send it to
-
-403
-00:11:54,820 --> 00:11:56,980
-OpenAI and set the token amount
-
-404
-00:11:56,980 --> 00:11:58,900
-So basically I will choose this
-
-405
-00:11:58,900 --> 00:12:01,260
-So if it's similar, it's like this
-
-406
-00:12:01,260 --> 00:12:03,740
-Ok
-
-407
-00:12:03,740 --> 00:12:05,220
-For example, like this
-
-408
-00:12:05,220 --> 00:12:06,900
-I set it to 0
-
-409
-00:12:06,900 --> 00:12:07,860
-Defunify
-
-410
-00:12:07,860 --> 00:12:09,140
-Then Isqulis
-
-411
-00:12:09,140 --> 00:12:09,620
-I set it
-
-412
-00:12:09,620 --> 00:12:10,940
-For example, you have Taste of Fire
-
-413
-00:12:10,940 --> 00:12:14,060
-That basically doesn't mean anything
-
-414
-00:12:14,060 --> 00:12:15,500
-We don't want to give OpenAI
-
-415
-00:12:15,500 --> 00:12:17,140
-We don't want to give AI to look
-
-416
-00:12:17,140 --> 00:12:18,660
-But it's in this card
-
-417
-00:12:18,660 --> 00:12:19,500
-In the card
-
-418
-00:12:19,500 --> 00:12:21,060
-We just drop it
-
-419
-00:12:21,060 --> 00:12:23,020
-Basically this is the parameters
-
-420
-00:12:23,020 --> 00:12:24,620
-So this is what we just talked about
-
-421
-00:12:24,620 --> 00:12:26,180
-It's that it can do
-
-422
-00:12:26,180 --> 00:12:27,620
-The preview of the card
-
-423
-00:12:27,620 --> 00:12:29,580
-You can also download the preview
-
-424
-00:12:29,580 --> 00:12:31,460
-The first thing is that I don't
-
-425
-00:12:31,460 --> 00:12:32,380
-Do this
-
-426
-00:12:32,380 --> 00:12:34,100
-Do the card on the card
-
-427
-00:12:34,100 --> 00:12:35,140
-Help you do the card
-
-428
-00:12:35,140 --> 00:12:36,860
-Then you basically have Stained Fire
-
-429
-00:12:36,860 --> 00:12:37,820
-Still here
-
-430
-00:12:37,820 --> 00:12:39,980
-Then this is the translation of the script
-
-431
-00:12:39,980 --> 00:12:41,940
-Then basically don't use this function
-
-432
-00:12:41,940 --> 00:12:44,140
-Don't translate it into Chinese
-
-433
-00:12:44,140 --> 00:12:46,580
-Because the token amount of Chinese is quite large
-
-434
-00:12:46,580 --> 00:12:48,340
-So everyone please use it carefully
-
-435
-00:12:48,340 --> 00:12:49,980
-Then this is
-
-436
-00:12:49,980 --> 00:12:50,900
-Just demoed
-
-437
-00:12:50,900 --> 00:12:53,260
-If you are not satisfied with the first card content
-
-438
-00:12:53,260 --> 00:12:54,660
-Of the message
-
-439
-00:12:54,660 --> 00:12:55,420
-If you are not satisfied
-
-440
-00:12:55,420 --> 00:12:57,260
-You can keep downloading this command
-
-441
-00:12:57,260 --> 00:12:59,740
-You can continue to modify the last card
-
-442
-00:12:59,740 --> 00:13:01,500
-Then there was a user before
-
-443
-00:13:01,500 --> 00:13:02,500
-Tell me
-
-444
-00:13:02,500 --> 00:13:04,820
-This card content is a little bit different
-
-445
-00:13:04,820 --> 00:13:05,900
-No problem
-
-446
-00:13:05,900 --> 00:13:07,460
-You can define this template
-
-447
-00:13:07,460 --> 00:13:08,980
-Then there are a few parameters
-
-448
-00:13:08,980 --> 00:13:10,180
-Summary of Preface
-
-449
-00:13:10,180 --> 00:13:11,220
-Summary of Title
-
-450
-00:13:11,220 --> 00:13:12,260
-Summary of Message
-
-451
-00:13:12,260 --> 00:13:12,900
-You can use it
-
-452
-00:13:12,900 --> 00:13:13,980
-So you can download a
-
-453
-00:13:13,980 --> 00:13:14,900
-Template Stream
-
-454
-00:13:14,900 --> 00:13:16,300
-To change these things
-
-455
-00:13:16,300 --> 00:13:17,460
-Or Template Fire
-
-456
-00:13:17,460 --> 00:13:19,300
-You can set it up
-
-457
-00:13:19,300 --> 00:13:20,700
-OK, the script is not here
-
-458
-00:13:20,700 --> 00:13:21,700
-It's very simple
-
-459
-00:13:21,700 --> 00:13:22,740
-Install
-
-460
-00:13:22,740 --> 00:13:23,660
-And Uninstall
-
-461
-00:13:23,660 --> 00:13:24,420
-Then you say
-
-462
-00:13:24,420 --> 00:13:25,380
-GetAdder
-
-463
-00:13:25,380 --> 00:13:26,300
-These fire
-
-464
-00:13:26,300 --> 00:13:27,380
-In the next Git card
-
-465
-00:13:27,380 --> 00:13:28,980
-It will jump out of a window
-
-466
-00:13:28,980 --> 00:13:30,060
-Is the window in the card
-
-467
-00:13:30,060 --> 00:13:32,180
-Then download the AI-shaped card
-
-468
-00:13:32,180 --> 00:13:33,940
-Water to you
-
-469
-00:13:33,940 --> 00:13:35,540
-So you see it's going to generate
-
-470
-00:13:35,540 --> 00:13:36,660
-It's going to help you do the card
-
-471
-00:13:36,660 --> 00:13:38,340
-So it's very simple
-
-472
-00:13:38,340 --> 00:13:40,340
-Then finally let's talk about a call review
-
-473
-00:13:40,340 --> 00:13:41,300
-That call review is easy
-
-474
-00:13:41,300 --> 00:13:42,620
-It's the same as the Git card review
-
-475
-00:13:42,620 --> 00:13:44,340
-Just say it doesn't help you do the card
-
-476
-00:13:44,340 --> 00:13:46,060
-It helps you do the call review
-
-477
-00:13:46,060 --> 00:13:47,300
-That's what it means
-
-478
-00:13:47,300 --> 00:13:48,780
-OK, let's do the same
-
-479
-00:13:48,780 --> 00:13:50,580
-Let's take a look at an example
-
-480
-00:13:50,580 --> 00:13:52,340
-Suppose we let's take a look at this code
-
-481
-00:13:52,340 --> 00:13:53,340
-OK
-
-482
-00:13:53,340 --> 00:13:55,620
-Let's go to the PHP file
-
-483
-00:13:55,620 --> 00:13:56,340
-OK
-
-484
-00:13:56,340 --> 00:13:59,380
-.php
-
-485
-00:13:59,380 --> 00:14:00,380
-OK
-
-486
-00:14:00,380 --> 00:14:01,380
-The same
-
-487
-00:14:01,380 --> 00:14:02,660
-Let's put the script on
-
-488
-00:14:02,660 --> 00:14:04,660
-OK, let's take a look at this
-
-489
-00:14:04,660 --> 00:14:05,660
-This
-
-490
-00:14:05,660 --> 00:14:07,660
-How to use
-
-491
-00:14:07,660 --> 00:14:09,660
-.php
-
-492
-00:14:09,660 --> 00:14:10,660
-CodeGPD
-
-493
-00:14:10,660 --> 00:14:11,660
-OK
-
-494
-00:14:11,660 --> 00:14:12,660
-We are
-
-495
-00:14:12,660 --> 00:14:13,660
-Anyway, just use
-
-496
-00:14:13,660 --> 00:14:14,660
-Review
-
-497
-00:14:14,660 --> 00:14:15,660
-We will next review
-
-498
-00:14:15,660 --> 00:14:16,660
-OK
-
-499
-00:14:16,660 --> 00:14:18,660
-Next review is the same
-
-500
-00:14:18,660 --> 00:14:20,660
-He will go to see the content in this stage file
-
-501
-00:14:20,660 --> 00:14:22,660
-Then he starts to do
-
-502
-00:14:22,660 --> 00:14:23,660
-ReviewCodeChange
-
-503
-00:14:23,660 --> 00:14:24,660
-Then this
-
-504
-00:14:24,660 --> 00:14:26,660
-He needs to spend a period of time
-
-505
-00:14:26,660 --> 00:14:28,660
-Then you can spray these
-
-506
-00:14:28,660 --> 00:14:29,660
-These information
-
-507
-00:14:29,660 --> 00:14:31,660
-In fact, this thing is actually very useful
-
-508
-00:14:31,660 --> 00:14:34,660
-In the beginning, he told you that he may have some
-
-509
-00:14:34,660 --> 00:14:36,660
-Some ingestion
-
-510
-00:14:36,660 --> 00:14:37,660
-So you have to
-
-511
-00:14:37,660 --> 00:14:39,660
-Go to verify the input
-
-512
-00:14:39,660 --> 00:14:40,660
-What are you doing
-
-513
-00:14:40,660 --> 00:14:41,660
-Enter the user card
-
-514
-00:14:41,660 --> 00:14:42,660
-So I think these
-
-515
-00:14:42,660 --> 00:14:43,660
-The tools are very useful
-
-516
-00:14:43,660 --> 00:14:45,660
-He made 5 points for you
-
-517
-00:14:45,660 --> 00:14:46,660
-He made 5 points for you
-
-518
-00:14:46,660 --> 00:14:47,660
-So basically
-
-519
-00:14:47,660 --> 00:14:49,660
-I hope this thing can continue our
-
-520
-00:14:49,660 --> 00:14:50,660
-RuntyCoverFloor
-
-521
-00:14:50,660 --> 00:14:52,660
-Every time the user posts pr
-
-522
-00:14:52,660 --> 00:14:54,660
-For example, your team
-
-523
-00:14:54,660 --> 00:14:55,660
-The team is posting pr
-
-524
-00:14:55,660 --> 00:14:56,660
-I automatically
-
-525
-00:14:56,660 --> 00:14:57,660
-From your
-
-526
-00:14:57,660 --> 00:14:58,660
-From your this card
-
-527
-00:14:58,660 --> 00:14:59,660
-All of the content
-
-528
-00:14:59,660 --> 00:15:00,660
-Go to the code review
-
-529
-00:15:00,660 --> 00:15:01,660
-Give a summarized
-
-530
-00:15:01,660 --> 00:15:02,660
-That summarized
-
-531
-00:15:02,660 --> 00:15:03,660
-For you
-
-532
-00:15:03,660 --> 00:15:04,660
+104
+00:03:17,920 --> 00:03:19,840
+Kami's message
+
+105
+00:03:19,840 --> 00:03:22,000
+He saw the token number
+
+106
+00:03:22,000 --> 00:03:23,280
+Actually not even a dollar
+
+107
+00:03:23,280 --> 00:03:23,800
+It's quite cheap
+
+108
+00:03:23,800 --> 00:03:25,520
+So everyone put the credit card on it
+
+109
+00:03:25,520 --> 00:03:26,560
+Because your
+
+110
+00:03:26,560 --> 00:03:28,200
+For your KamiMessage
+
+111
+00:03:28,200 --> 00:03:28,960
 Very useful
 
-533
-00:15:04,660 --> 00:15:05,660
-For the developer
+112
+00:03:28,960 --> 00:03:30,080
+And you don't have to waste time
 
-534
-00:15:05,660 --> 00:15:07,660
-It is very useful to the developer
+113
+00:03:30,080 --> 00:03:31,600
+To organize your own
 
-535
-00:15:07,660 --> 00:15:08,660
-Then for the reviewer
+114
+00:03:31,600 --> 00:03:33,480
+Write things
 
-536
-00:15:08,660 --> 00:15:09,660
-He can look at this first
-
-537
-00:15:09,660 --> 00:15:11,660
-He can look at this review
-
-538
-00:15:11,660 --> 00:15:12,660
-Summoned
-
-539
-00:15:12,660 --> 00:15:13,660
-You know that you
-
-540
-00:15:13,660 --> 00:15:14,660
-What are you doing with this whole code
-
-541
-00:15:14,660 --> 00:15:15,660
-And maybe
-
-542
-00:15:15,660 --> 00:15:17,660
-What are the problems
-
-543
-00:15:17,660 --> 00:15:18,660
-What are the problems
-
-544
-00:15:18,660 --> 00:15:19,660
-And what suggestions
-
-545
-00:15:19,660 --> 00:15:20,660
-Basically
-
-546
-00:15:20,660 --> 00:15:21,660
-Usually need to say
-
-547
-00:15:21,660 --> 00:15:23,660
-He actually has some
-
-548
-00:15:23,660 --> 00:15:24,660
-Some ingestion
-
-549
-00:15:24,660 --> 00:15:25,660
-That's not you
-
-550
-00:15:25,660 --> 00:15:26,660
-But wait for you to fix it
-
-551
-00:15:26,660 --> 00:15:27,660
-I'll go and see
-
-552
-00:15:27,660 --> 00:15:28,660
-No problem
-
-553
-00:15:28,660 --> 00:15:29,660
-So basically
-
-554
-00:15:29,660 --> 00:15:30,660
-I think the suggestions
-
-555
-00:15:30,660 --> 00:15:32,660
-The suggestions are very, very good
-
-556
-00:15:32,660 --> 00:15:33,660
-Not just in
-
-557
-00:15:33,660 --> 00:15:38,660
-Code
-
-558
-00:15:38,660 --> 00:15:39,660
-Because he almost
-
-559
-00:15:39,660 --> 00:15:40,660
-I've finished watching the game
-
-560
-00:15:40,660 --> 00:15:42,660
-That's the 2021 data
-
-561
-00:15:42,660 --> 00:15:43,660
-I think that
-
-562
-00:15:43,660 --> 00:15:44,660
-The whole model base
-
-563
-00:15:44,660 --> 00:15:46,660
-Has been very, very strong
-
-564
-00:15:46,660 --> 00:15:47,660
-So basically
-
-565
-00:15:47,660 --> 00:15:48,660
-He can look at the language
-
-566
-00:15:48,660 --> 00:15:49,660
+115
+00:03:33,480 --> 00:03:34,080
 good
 
-567
-00:15:49,660 --> 00:15:52,660
-That's what I'm going to introduce today
+116
+00:03:34,080 --> 00:03:35,520
+Then when you finish
 
-568
-00:15:52,660 --> 00:15:54,660
-Then I think it's very useful
+117
+00:03:35,520 --> 00:03:36,800
+Actually you can use
 
-569
-00:15:54,660 --> 00:15:55,660
-That's below
+118
+00:03:36,800 --> 00:03:37,880
+I don't want to go to Insta
 
-570
-00:15:55,660 --> 00:15:56,660
+119
+00:03:37,880 --> 00:03:39,280
+We can take a look
+
+120
+00:03:39,280 --> 00:03:41,280
+Let's take a look at this website
+
+121
+00:03:41,280 --> 00:03:44,800
 good
 
-571
-00:15:56,660 --> 00:15:57,660
-That's China and Hong Kong
+122
+00:03:44,800 --> 00:03:45,240
+Very simple
 
-572
-00:15:57,660 --> 00:15:58,660
-In fact, most companies
+123
+00:03:45,240 --> 00:03:47,200
+You can download from this list
 
-573
-00:15:58,660 --> 00:16:00,660
-Are strict with the CFC
+124
+00:03:47,200 --> 00:03:48,880
+To the corresponding private sector
 
-574
-00:16:00,660 --> 00:16:01,660
-So this tool
+125
+00:03:48,880 --> 00:03:50,560
+You can go
 
-575
-00:16:01,660 --> 00:16:02,660
-I've just developed
+126
+00:03:50,560 --> 00:03:51,520
+Download the answer
 
-576
-00:16:02,660 --> 00:16:04,660
-Processing function
+127
+00:03:51,520 --> 00:03:52,720
+64 with the AND
 
-577
-00:16:04,660 --> 00:16:06,660
-You can connect with the Sacky
+128
+00:03:52,720 --> 00:03:54,080
+Or the Linux version
 
-578
-00:16:06,660 --> 00:16:07,660
-You can use the process
+129
+00:03:54,080 --> 00:03:55,680
+Or the Windows version
 
-579
-00:16:07,660 --> 00:16:09,660
-Or visit OpenAI
+130
+00:03:55,680 --> 00:03:57,280
+Or you
 
-580
-00:16:09,660 --> 00:16:11,660
-Or if you have
+131
+00:03:57,280 --> 00:03:57,840
+Very simple
 
-581
-00:16:11,660 --> 00:16:12,660
-If you have a base UI
+132
+00:03:57,840 --> 00:03:59,120
+If you use Mac
 
-582
-00:16:12,660 --> 00:16:13,660
-You have a Java or a proxy
+133
+00:03:59,120 --> 00:04:01,080
+You can use
 
-583
-00:16:13,660 --> 00:16:14,660
-It's okay
+134
+00:04:01,080 --> 00:04:03,120
+Just use Blue install
 
-584
-00:16:14,660 --> 00:16:15,660
-Well, if you expect
+135
+00:04:03,120 --> 00:04:04,960
+Basically, just use the tab
 
-585
-00:16:15,660 --> 00:16:16,660
-I think the next step
+136
+00:04:04,960 --> 00:04:06,440
+Apple Boy's stage tab
 
-586
-00:16:16,660 --> 00:16:18,660
-Is the OpenAI
+137
+00:04:06,440 --> 00:04:08,200
+Then install
 
-587
-00:16:18,660 --> 00:16:19,660
-OpenAI
+138
+00:04:08,200 --> 00:04:09,440
+Then the next step is
 
-588
-00:16:19,660 --> 00:16:20,660
-After coming in
+139
+00:04:09,440 --> 00:04:11,680
+How to use
 
-589
-00:16:20,660 --> 00:16:21,660
-He will also support
+140
+00:04:11,680 --> 00:04:13,480
+Set up your API key
 
-590
-00:16:21,660 --> 00:16:22,660
-OpenAI
+141
+00:04:13,480 --> 00:04:14,160
+Then this is very simple
 
-591
-00:16:22,660 --> 00:16:23,660
-Because OpenAI
+142
+00:04:14,160 --> 00:04:15,560
+After you generate your API key
 
-592
-00:16:23,660 --> 00:16:25,660
-The biggest share is software
+143
+00:04:15,560 --> 00:04:16,920
+You can continue to use it
 
-593
-00:16:25,660 --> 00:16:27,660
-Then Microsoft also
+144
+00:04:16,920 --> 00:04:18,560
+You just need to export this variable
 
-594
-00:16:27,660 --> 00:16:28,660
-This thing is integrated
+145
+00:04:18,560 --> 00:04:20,760
+Then you will do the back-up thing
 
-595
-00:16:28,660 --> 00:16:29,660
-Into their
+146
+00:04:20,760 --> 00:04:21,320
+good
 
-596
-00:16:29,660 --> 00:16:31,660
-The entire cloud service of Agile
+147
+00:04:21,320 --> 00:04:23,040
+Let's see how to use it at the bottom
 
-597
-00:16:31,660 --> 00:16:32,660
-So basically
+148
+00:04:23,040 --> 00:04:24,040
+good
 
-598
-00:16:32,660 --> 00:16:33,660
-In terms of
+149
+00:04:24,040 --> 00:04:25,240
+Let's take a look
 
-599
-00:16:33,660 --> 00:16:34,660
-Most of the companies
+150
+00:04:25,240 --> 00:04:27,760
+Let's take a look at the current
 
-600
-00:16:34,660 --> 00:16:35,660
-It's impossible to
+151
+00:04:27,760 --> 00:04:29,040
+KamiMessage
 
-601
-00:16:35,660 --> 00:16:36,660
-Go to OpenAI
+152
+00:04:29,040 --> 00:04:29,440
+good
 
-602
-00:16:36,660 --> 00:16:38,660
-Because he didn't have the ability
+153
+00:04:29,440 --> 00:04:30,400
+Because it's here
 
-603
-00:16:38,660 --> 00:16:39,660
-He won't take your data
+154
+00:04:30,400 --> 00:04:32,400
+I changed one thing
 
-604
-00:16:39,660 --> 00:16:40,660
-Do any
+155
+00:04:32,400 --> 00:04:33,280
+Then let's take a look at
 
-605
-00:16:40,660 --> 00:16:41,660
-The training tool
+156
+00:04:33,280 --> 00:04:34,680
+GITDIF
 
-606
-00:16:41,660 --> 00:16:42,660
-But Microsoft
+157
+00:04:34,680 --> 00:04:37,000
+good
 
-607
-00:16:42,660 --> 00:16:43,660
-He is
+158
+00:04:37,000 --> 00:04:37,360
+Look at me
 
-608
-00:16:43,660 --> 00:16:44,660
-This is a possibility
+159
+00:04:37,360 --> 00:04:38,360
+After I change this
 
-609
-00:16:44,660 --> 00:16:45,660
-I heard
+160
+00:04:38,360 --> 00:04:40,600
+Let's take a look at what he wants to do
 
-610
-00:16:45,660 --> 00:16:46,660
-We will never
+161
+00:04:40,600 --> 00:04:42,440
+Let's set it to
 
-611
-00:16:46,660 --> 00:16:47,660
-Go to the code
+162
+00:04:42,440 --> 00:04:43,480
+The third state
 
-612
-00:16:47,660 --> 00:16:48,660
-Do that
+163
+00:04:43,480 --> 00:04:43,720
+good
 
-613
-00:16:48,660 --> 00:16:49,660
-The right thing
+164
+00:04:43,720 --> 00:04:45,560
+Next we have code gbt
 
-614
-00:16:49,660 --> 00:16:50,660
-This is to sign with Microsoft
+165
+00:04:45,560 --> 00:04:46,520
+This KamiMessage
 
-615
-00:16:50,660 --> 00:16:51,660
-The contract later
+166
+00:04:46,520 --> 00:04:48,240
+You can play hlp
 
-616
-00:16:51,660 --> 00:16:52,660
-So this is the
+167
+00:04:48,240 --> 00:04:49,960
+You can see that he has a lot of
 
-617
-00:16:52,660 --> 00:16:54,660
-The big company is going to go
+168
+00:04:49,960 --> 00:04:50,960
+Kami can use
 
-618
-00:16:54,660 --> 00:16:55,660
+169
+00:04:50,960 --> 00:04:52,240
+The first Kami
+
+170
+00:04:52,240 --> 00:04:54,680
+He will help you to auto generate a KamiMessage
+
+171
+00:04:54,680 --> 00:04:56,720
+Then you can set up your own KamiMessage
+
+172
+00:04:56,720 --> 00:04:58,360
+Let me introduce this a little more
+
+173
+00:04:58,360 --> 00:05:01,680
+Then you can also use the GIT hook method to do it
+
+174
+00:05:01,680 --> 00:05:03,360
+Then this is less useful
+
+175
+00:05:03,360 --> 00:05:05,400
+If you need it, you can also use it
+
+176
+00:05:05,400 --> 00:05:07,560
+He will help you to press a GIT hook
+
+177
+00:05:07,560 --> 00:05:08,480
+At your
+
+178
+00:05:08,480 --> 00:05:09,560
+At your point
+
+179
+00:05:09,560 --> 00:05:10,920
+Under the point GIT
+
+180
+00:05:10,920 --> 00:05:13,200
+To change your Kami hook
+
+181
+00:05:13,200 --> 00:05:17,680
+Then you can automatically send the message to the user every time you use the KamiMessage
+
+182
+00:05:17,680 --> 00:05:19,600
+Then he has the most important function
+
+183
+00:05:19,600 --> 00:05:21,360
+He can go to the remote control
+
+184
+00:05:21,360 --> 00:05:22,760
+So this is also introduced
+
+185
+00:05:22,760 --> 00:05:23,160
 Ok
 
+186
+00:05:23,160 --> 00:05:24,120
+Let's take a look at it
+
+187
+00:05:24,120 --> 00:05:26,200
+Because we are now in a stage state
+
+188
+00:05:26,200 --> 00:05:27,120
+There is a
+
+189
+00:05:27,120 --> 00:05:28,320
+CND
+
+190
+00:05:28,320 --> 00:05:29,560
+The code is changed by the answer
+
+191
+00:05:29,560 --> 00:05:30,760
+Let's take a look at the content
+
+192
+00:05:30,760 --> 00:05:35,040
+Ok, in fact, just change
+
+193
+00:05:35,040 --> 00:05:35,960
+Change a
+
+194
+00:05:35,960 --> 00:05:37,240
+The variable of the constant
+
+195
+00:05:37,240 --> 00:05:38,160
+Change it to a
+
+196
+00:05:38,160 --> 00:05:39,520
+The order of your own
+
+197
+00:05:39,520 --> 00:05:41,720
+Ok, then we just use the code gbt
+
+198
+00:05:41,720 --> 00:05:42,880
+Kami
+
+199
+00:05:42,880 --> 00:05:44,880
+So he will automatically use
+
+200
+00:05:44,880 --> 00:05:46,920
+Gbt 3.5 turbo version
+
+201
+00:05:46,920 --> 00:05:49,560
+Then he will tell you what is the Kami summary
+
+202
+00:05:49,560 --> 00:05:51,600
+He will tell you the variable of the update environment
+
+203
+00:05:51,600 --> 00:05:54,000
+Preface for consistency
+
+204
+00:05:54,000 --> 00:05:56,360
+Then he will be able to say that the content inside it is
+
+205
+00:05:56,360 --> 00:05:58,760
+I changed the Github into input
+
+206
+00:05:58,760 --> 00:05:59,960
+Change the weight to the bottom
+
+207
+00:05:59,960 --> 00:06:00,960
+The weight of the text
+
+208
+00:06:00,960 --> 00:06:02,440
+Then after finishing it
+
+209
+00:06:02,440 --> 00:06:04,240
+He basically wrote it to you
+
+210
+00:06:04,240 --> 00:06:05,080
+A KamiMessage
+
+211
+00:06:05,080 --> 00:06:06,120
+He automatically changed it
+
+212
+00:06:06,120 --> 00:06:07,360
+So you can see
+
+213
+00:06:07,360 --> 00:06:10,000
+You are automatically changed to this
+
+214
+00:06:10,000 --> 00:06:10,920
+Ok
+
+215
+00:06:10,920 --> 00:06:11,520
+Ok
+
+216
+00:06:11,520 --> 00:06:14,840
+If you are not satisfied with this message
+
+217
+00:06:14,840 --> 00:06:16,520
+You can use another method
+
+218
+00:06:16,520 --> 00:06:17,800
+You can go down
+
+219
+00:06:17,800 --> 00:06:18,840
+This
+
+220
+00:06:18,840 --> 00:06:21,120
+Then this is actually with your Github Kami
+
+221
+00:06:21,120 --> 00:06:21,760
+The content is the same
+
+222
+00:06:21,760 --> 00:06:24,520
+You will go to change the Kami message
+
+223
+00:06:24,520 --> 00:06:25,520
+Ok, we will do it next
+
+224
+00:06:25,520 --> 00:06:26,760
+He must be doing
+
+225
+00:06:26,760 --> 00:06:28,560
+GPD 3.5 turbo version
+
+226
+00:06:28,560 --> 00:06:32,240
+After that, he will go to change a new message
+
+227
+00:06:32,240 --> 00:06:34,120
+Ok, until you change
+
+228
+00:06:34,120 --> 00:06:35,200
+The message you want
+
+229
+00:06:35,200 --> 00:06:36,640
+The message you want
+
+230
+00:06:36,640 --> 00:06:38,520
+So you can keep changing
+
+231
+00:06:38,520 --> 00:06:39,520
+Of course
+
+232
+00:06:39,520 --> 00:06:41,280
+It's all signed to your
+
+233
+00:06:41,280 --> 00:06:42,520
+The token money
+
+234
+00:06:42,520 --> 00:06:43,480
+So you see
+
+235
+00:06:43,480 --> 00:06:44,440
+Here I tell you
+
+236
+00:06:44,440 --> 00:06:47,120
+How much is your Pond token
+
+237
+00:06:47,120 --> 00:06:49,600
+Then how much is your Confirmation token
+
+238
+00:06:49,600 --> 00:06:51,880
+Then the total token here is these two
+
+239
+00:06:51,880 --> 00:06:54,360
+That's the last thing you want to pay
+
+240
+00:06:54,360 --> 00:06:57,160
+Now every 1000 tokens is 0.002 US dollars
+
+241
+00:06:57,160 --> 00:06:57,960
+That's very cheap
+
+242
+00:06:57,960 --> 00:07:00,160
+So basically you use it every day
+
+243
+00:07:00,160 --> 00:07:01,360
+Almost not much
+
+244
+00:07:01,360 --> 00:07:02,440
+More than 1 US dollars
+
+245
+00:07:02,440 --> 00:07:04,680
+So you can save every day
+
+246
+00:07:04,680 --> 00:07:05,760
+Go to the money to order a drink
+
+247
+00:07:05,760 --> 00:07:07,360
+In fact, you can save a day
+
+248
+00:07:07,360 --> 00:07:09,840
+How much is your KamiMessage
+
+249
+00:07:09,840 --> 00:07:11,200
+So I think it's basically
+
+250
+00:07:11,200 --> 00:07:12,400
+Pretty convenient
+
+251
+00:07:12,400 --> 00:07:13,880
+How to use other parameters
+
+252
+00:07:13,880 --> 00:07:16,200
+Let's take a look at the Internet
+
+253
+00:07:16,200 --> 00:07:17,720
+Ok, then in fact
+
+254
+00:07:17,720 --> 00:07:20,040
+We can go through a code GPT
+
+255
+00:07:20,040 --> 00:07:21,600
+Use Confirmation token
+
+256
+00:07:21,600 --> 00:07:24,120
+Go to set some environmental parameters
+
+257
+00:07:24,120 --> 00:07:24,840
+For example
+
+258
+00:07:24,840 --> 00:07:27,600
+Ok, I wrote the Open API in there
+
+259
+00:07:27,600 --> 00:07:29,800
+Basically, I don't have to go to eSport anymore
+
+260
+00:07:29,800 --> 00:07:31,320
+Because it will directly win
+
+261
+00:07:31,320 --> 00:07:32,360
+The store under the screen
+
+262
+00:07:32,360 --> 00:07:33,080
+Confirmation token
+
+263
+00:07:33,080 --> 00:07:34,520
+Code GPT store
+
+264
+00:07:34,520 --> 00:07:35,400
+Code GPT store
+
+265
+00:07:35,400 --> 00:07:37,960
+The answer is to write in these settings
+
+266
+00:07:37,960 --> 00:07:38,880
+Then it's all written
+
+267
+00:07:38,880 --> 00:07:41,000
+So basically you don't have to worry about it
+
+268
+00:07:41,000 --> 00:07:42,520
+Then what about Open API
+
+269
+00:07:42,520 --> 00:07:44,120
+Open API has a function
+
+270
+00:07:44,120 --> 00:07:45,000
+Base
+
+271
+00:07:45,000 --> 00:07:45,600
+UIL
+
+272
+00:07:45,600 --> 00:07:47,840
+Why does this function have this function
+
+273
+00:07:47,840 --> 00:07:49,520
+You see now all companies
+
+274
+00:07:49,520 --> 00:07:51,000
+Almost all of this
+
+275
+00:07:51,000 --> 00:07:53,000
+Open API's king is all blocked
+
+276
+00:07:53,000 --> 00:07:54,440
+After that, everyone is crazy
+
+277
+00:07:54,440 --> 00:07:55,600
+Crazy fake
+
+278
+00:07:55,600 --> 00:07:56,760
+For all the plus
+
+279
+00:07:56,760 --> 00:07:57,560
+For all the plus
+
+280
+00:07:57,560 --> 00:07:58,960
+You can change this point
+
+281
+00:07:58,960 --> 00:08:00,520
+Base UIL
+
+282
+00:08:00,520 --> 00:08:02,000
+Then I guess at the beginning
+
+283
+00:08:02,000 --> 00:08:03,200
+Open API should have
+
+284
+00:08:03,200 --> 00:08:04,400
+Found this problem
+
+285
+00:08:04,400 --> 00:08:05,720
+When the record is released
+
+286
+00:08:05,720 --> 00:08:08,320
+He told me that he can point
+
+287
+00:08:08,320 --> 00:08:09,920
+Everyone's base UIL can be changed
+
+288
+00:08:09,920 --> 00:08:11,640
+So you can change it to what you want
+
+289
+00:08:11,640 --> 00:08:13,920
+Then everyone can use this free
+
+290
+00:08:13,920 --> 00:08:15,320
+Then many people will say
+
+291
+00:08:15,320 --> 00:08:16,320
+Hey, my key is stolen
+
+292
+00:08:16,320 --> 00:08:17,840
+What are you doing
+
+293
+00:08:17,840 --> 00:08:20,000
+If I don't believe it, I'll just go and get it myself
+
+294
+00:08:20,000 --> 00:08:22,400
+Then this is a Chinese developer
+
+295
+00:08:22,400 --> 00:08:23,240
+The price
+
+296
+00:08:23,240 --> 00:08:25,480
+Then it is a Dino developer
+
+297
+00:08:25,480 --> 00:08:27,680
+Ok, then you can turn some
+
+298
+00:08:27,680 --> 00:08:29,760
+Some data to the computer
+
+299
+00:08:29,760 --> 00:08:32,160
+API key and your organization
+
+300
+00:08:32,160 --> 00:08:34,960
+Just assume that your account has more than one organization
+
+301
+00:08:34,960 --> 00:08:36,240
+Remember to set this
+
+302
+00:08:36,240 --> 00:08:38,920
+Ok, then you can use the model you want
+
+303
+00:08:38,920 --> 00:08:41,480
+Then you can use the GPT 3.5 Turbo now
+
+304
+00:08:41,480 --> 00:08:44,040
+Or you need a bigger token
+
+305
+00:08:44,040 --> 00:08:44,880
+Because GPT 3.5
+
+306
+00:08:44,880 --> 00:08:47,720
+Its token is a token of 409
+
+307
+00:08:47,720 --> 00:08:49,480
+Then you can change it to GPT4
+
+308
+00:08:49,480 --> 00:08:51,480
+Maybe you can use 8K token
+
+309
+00:08:51,480 --> 00:08:52,960
+Or 32K token
+
+310
+00:08:52,960 --> 00:08:55,120
+But its cost is
+
+311
+00:08:55,120 --> 00:08:56,120
+One is 15 times
+
+312
+00:08:56,120 --> 00:08:57,080
+One is 30 times
+
+313
+00:08:57,080 --> 00:08:58,560
+So everyone, be careful
+
+314
+00:08:58,560 --> 00:08:59,720
+If you need it
+
+315
+00:08:59,720 --> 00:09:01,200
+But basically if you just want to do
+
+316
+00:09:01,200 --> 00:09:03,080
+Carman's Bureau and Review Code
+
+317
+00:09:03,080 --> 00:09:04,400
+GPT 3.5 Turbo
+
+318
+00:09:04,400 --> 00:09:05,800
+It's very, very useful
+
+319
+00:09:05,800 --> 00:09:07,560
+Then in terms of language
+
+320
+00:09:07,560 --> 00:09:09,960
+You basically have the language
+
+321
+00:09:09,960 --> 00:09:12,040
+You can change your Carman's Bureau to
+
+322
+00:09:12,040 --> 00:09:13,320
+Chinese
+
+323
+00:09:13,320 --> 00:09:15,400
+Translate Chinese, sign language, and Japanese
+
+324
+00:09:15,400 --> 00:09:17,200
+The purpose is to change these three types
+
+325
+00:09:17,200 --> 00:09:19,440
+Then I have a more written
+
+326
+00:09:19,440 --> 00:09:20,400
+Plastic function
+
+327
+00:09:20,400 --> 00:09:22,120
+Or Saki's house to make links
+
+328
+00:09:22,120 --> 00:09:22,800
+So you
+
+329
+00:09:22,800 --> 00:09:25,800
+You have been doing these Saki and Plastic
+
+330
+00:09:25,800 --> 00:09:27,560
+You can connect it in this way
+
+331
+00:09:27,560 --> 00:09:29,280
+This is the UI of OpenAI
+
+332
+00:09:29,280 --> 00:09:30,880
+Ok, then this is the Type-Out
+
+333
+00:09:30,880 --> 00:09:32,480
+This Type-Out is to assume that your
+
+334
+00:09:32,480 --> 00:09:33,320
+Carman's Bureau
+
+335
+00:09:33,320 --> 00:09:35,920
+Your token needs to look a lot
+
+336
+00:09:35,920 --> 00:09:36,680
+Sometimes
+
+337
+00:09:36,680 --> 00:09:38,160
+OpenAI will be noisy because
+
+338
+00:09:38,160 --> 00:09:39,280
+OpenAI is too much to use
+
+339
+00:09:39,280 --> 00:09:40,920
+So sometimes it will be very slow
+
+340
+00:09:40,920 --> 00:09:43,160
+So you just adjust the Type-Out
+
+341
+00:09:43,160 --> 00:09:45,080
+Ok, then there is Miss Token
+
+342
+00:09:45,080 --> 00:09:46,200
+This token is that
+
+343
+00:09:46,200 --> 00:09:47,800
+When you reply
+
+344
+00:09:47,800 --> 00:09:49,840
+These words are too
+
+345
+00:09:49,840 --> 00:09:51,480
+Compression Token
+
+346
+00:09:51,480 --> 00:09:53,080
+If you don't use Compression Token
+
+347
+00:09:53,080 --> 00:09:55,400
+If you don't use it, you can increase it from here
+
+348
+00:09:55,400 --> 00:09:56,760
+That default is 300
+
+349
+00:09:56,760 --> 00:09:58,400
+But the main thing is to adjust this
+
+350
+00:09:58,400 --> 00:10:01,360
+Because you need this when you are doing the Code Review
+
+351
+00:10:01,360 --> 00:10:02,040
+Ok
+
+352
+00:10:02,040 --> 00:10:04,920
+Ok, then there is Temperature
+
+353
+00:10:04,920 --> 00:10:06,920
+But this is the basic
+
+354
+00:10:06,920 --> 00:10:07,960
+The parameters of OpenAI
+
+355
+00:10:07,960 --> 00:10:09,160
+0.7
+
+356
+00:10:09,160 --> 00:10:12,040
+0.0 to 0.2
+
+357
+00:10:12,040 --> 00:10:14,360
+Then the higher you are, the higher the answer
+
+358
+00:10:14,360 --> 00:10:15,840
+So don't be too high or too low
+
+359
+00:10:15,840 --> 00:10:17,160
+So 0.7 should be
+
+360
+00:10:17,160 --> 00:10:19,200
+This is the parameters of the network
+
+361
+00:10:19,200 --> 00:10:20,680
+Ok, then there is a called
+
+362
+00:10:20,680 --> 00:10:21,640
+Diff Unify
+
+363
+00:10:21,640 --> 00:10:22,360
+This thing
+
+364
+00:10:22,360 --> 00:10:23,680
+I will introduce this
+
+365
+00:10:23,680 --> 00:10:25,120
+You can look at it
+
+366
+00:10:25,120 --> 00:10:26,760
+Sometimes I put this command
+
+367
+00:10:26,760 --> 00:10:27,920
+Ok, that's it
+
+368
+00:10:27,920 --> 00:10:29,000
+You will see that
+
+369
+00:10:29,000 --> 00:10:30,440
+My Diffnet has
+
+370
+00:10:30,440 --> 00:10:33,240
+The front and the back three are all connected
+
+371
+00:10:33,720 --> 00:10:35,960
+This is the thing that the Diff is expected to be
+
+372
+00:10:35,960 --> 00:10:37,360
+But your Diffnet
+
+373
+00:10:37,360 --> 00:10:39,320
+So it looks like this in the Diff
+
+374
+00:10:39,320 --> 00:10:41,280
+That's what your Diff is
+
+375
+00:10:41,280 --> 00:10:43,360
+If you put this Unify as a 0
+
+376
+00:10:43,360 --> 00:10:44,440
+Basically
+
+377
+00:10:44,440 --> 00:10:47,800
+It will only show this red and green
+
+378
+00:10:47,800 --> 00:10:48,920
+We can try
+
+379
+00:10:48,920 --> 00:10:53,640
+Ok, there is a
+
+380
+00:10:53,640 --> 00:10:55,680
+There is a Diff thing on the Diff
+
+381
+00:10:55,680 --> 00:10:57,120
+Ok, anyway, this is
+
+382
+00:10:57,120 --> 00:10:59,680
+This parameter is basically to adjust
+
+383
+00:10:59,680 --> 00:11:00,720
+Can you think about it?
+
+384
+00:11:00,720 --> 00:11:01,400
+He adjusts it
+
+385
+00:11:01,400 --> 00:11:05,040
+Do you want to see the front row and the back row
+
+386
+00:11:05,040 --> 00:11:06,440
+The prediction is three rows
+
+387
+00:11:06,440 --> 00:11:07,960
+So basically you adjust it
+
+388
+00:11:07,960 --> 00:11:09,360
+We give it to token
+
+389
+00:11:09,360 --> 00:11:10,680
+We give it to OpenAI
+
+390
+00:11:10,680 --> 00:11:12,480
+You can reduce the token amount
+
+391
+00:11:12,480 --> 00:11:14,480
+So this is also the benefit of reducing the token amount
+
+392
+00:11:14,480 --> 00:11:15,480
+So if your
+
+393
+00:11:15,480 --> 00:11:17,680
+Your Ruminant is very long
+
+394
+00:11:17,680 --> 00:11:18,880
+Basically you can adjust it a little
+
+395
+00:11:18,880 --> 00:11:20,720
+It will save some tokens
+
+396
+00:11:20,720 --> 00:11:22,720
+Then basically I think you can set it as 0
+
+397
+00:11:22,720 --> 00:11:23,560
+Because
+
+398
+00:11:23,560 --> 00:11:27,400
+Basically OpenAI is looking at the front
+
+399
+00:11:27,400 --> 00:11:27,960
+These are the few
+
+400
+00:11:27,960 --> 00:11:30,800
+The whole answer to the back row is not very impressive
+
+401
+00:11:30,800 --> 00:11:32,120
+So basically I set it as 0
+
+402
+00:11:32,120 --> 00:11:33,880
+Ok
+
+403
+00:11:33,880 --> 00:11:35,280
+Then there is the Is Coolist
+
+404
+00:11:35,280 --> 00:11:37,520
+I think this is also very useful
+
+405
+00:11:37,520 --> 00:11:39,200
+What does this thing use
+
+406
+00:11:39,200 --> 00:11:40,200
+If you change things
+
+407
+00:11:40,200 --> 00:11:42,760
+For example, the package.json
+
+408
+00:11:42,760 --> 00:11:44,960
+The package is
+
+409
+00:11:44,960 --> 00:11:45,800
+NPN
+
+410
+00:11:45,800 --> 00:11:46,560
+NPN
+
+411
+00:11:46,560 --> 00:11:47,520
+ConfirDock.json
+
+412
+00:11:47,520 --> 00:11:48,600
+That actually doesn't use anything
+
+413
+00:11:48,600 --> 00:11:50,120
+Or the "go" in "go"
+
+414
+00:11:50,120 --> 00:11:52,040
+For example, this "go go"
+
+415
+00:11:52,040 --> 00:11:53,680
+This thing actually doesn't use anything
+
+416
+00:11:53,680 --> 00:11:55,400
+Then send it to OpenAI
+
+417
+00:11:55,400 --> 00:11:56,880
+It also saves the token amount
+
+418
+00:11:56,880 --> 00:11:58,800
+So basically I will choose this one
+
+419
+00:11:58,800 --> 00:11:59,400
+So
+
+420
+00:11:59,400 --> 00:12:01,200
+If it's similar, it's like this
+
+421
+00:12:01,200 --> 00:12:03,600
+Ok
+
+422
+00:12:03,600 --> 00:12:05,120
+For example, like this
+
+423
+00:12:05,120 --> 00:12:06,800
+I set it as "nima"
+
+424
+00:12:06,800 --> 00:12:07,720
+"diff unify"
+
+425
+00:12:07,720 --> 00:12:09,000
+Then this "iscoolist"
+
+426
+00:12:09,000 --> 00:12:10,840
+I set it as "nitetestify"
+
+427
+00:12:10,840 --> 00:12:13,960
+That basically doesn't mean anything
+
+428
+00:12:13,960 --> 00:12:15,360
+We don't want to give OpenAI
+
+429
+00:12:15,360 --> 00:12:17,040
+We don't want to give AI to look
+
+430
+00:12:17,040 --> 00:12:18,720
+But it's in this "common"
+
+431
+00:12:18,720 --> 00:12:19,440
+"common.nl"
+
+432
+00:12:19,440 --> 00:12:20,920
+We can just drop it
+
+433
+00:12:20,920 --> 00:12:22,920
+Basically this is the parameters
+
+434
+00:12:22,920 --> 00:12:24,520
+So this is what we just talked about
+
+435
+00:12:24,520 --> 00:12:26,040
+It can do
+
+436
+00:12:26,040 --> 00:12:27,520
+"common" preview
+
+437
+00:12:27,520 --> 00:12:29,480
+You can also drop the preview
+
+438
+00:12:29,480 --> 00:12:31,360
+The preview means that I won't
+
+439
+00:12:31,360 --> 00:12:33,920
+Do this "common.nl"
+
+440
+00:12:33,920 --> 00:12:35,040
+Help you do "common"
+
+441
+00:12:35,040 --> 00:12:35,920
+Then you basically
+
+442
+00:12:35,920 --> 00:12:37,760
+"Standify" is still there
+
+443
+00:12:37,760 --> 00:12:39,840
+Then this is to help you translate
+
+444
+00:12:39,840 --> 00:12:41,840
+Basically don't use this function
+
+445
+00:12:41,840 --> 00:12:44,040
+Don't translate the whole Chinese
+
+446
+00:12:44,040 --> 00:12:46,440
+Because the token amount of Chinese is quite large
+
+447
+00:12:46,440 --> 00:12:48,240
+So everyone please use it
+
+448
+00:12:48,240 --> 00:12:49,880
+Then this is
+
+449
+00:12:49,880 --> 00:12:50,800
+Just demoed
+
+450
+00:12:50,800 --> 00:12:55,240
+Suppose you are not satisfied with the message of the previous "common.nl"
+
+451
+00:12:55,240 --> 00:12:57,120
+You can keep downloading this command
+
+452
+00:12:57,120 --> 00:12:59,600
+You can continue to modify the last "common.nl"
+
+453
+00:12:59,600 --> 00:13:01,840
+Then there was a user who told me before
+
+454
+00:13:01,840 --> 00:13:04,680
+This "common.nl" format can be slightly changed
+
+455
+00:13:04,680 --> 00:13:05,760
+No problem
+
+456
+00:13:05,760 --> 00:13:07,320
+You can define this "template"
+
+457
+00:13:07,320 --> 00:13:08,880
+There are several parameters
+
+458
+00:13:08,880 --> 00:13:10,040
+Summary of P-fix
+
+459
+00:13:10,040 --> 00:13:11,080
+Summary of Title
+
+460
+00:13:11,080 --> 00:13:12,120
+Summary of Message
+
+461
+00:13:12,120 --> 00:13:12,760
+You can use it
+
+462
+00:13:12,760 --> 00:13:13,840
+So you can download a
+
+463
+00:13:13,840 --> 00:13:14,760
+"templar_stream"
+
+464
+00:13:14,760 --> 00:13:16,160
+To change these things
+
+465
+00:13:16,160 --> 00:13:17,320
+Or "templar_fire"
+
+466
+00:13:17,320 --> 00:13:19,120
+You can set it up
+
+467
+00:13:19,120 --> 00:13:20,560
+Okay, I won't talk about "key" here
+
+468
+00:13:20,560 --> 00:13:21,560
+It's very simple
+
+469
+00:13:21,560 --> 00:13:23,480
+Install and uninstall
+
+470
+00:13:23,480 --> 00:13:24,160
+Then you can
+
+471
+00:13:24,160 --> 00:13:25,240
+"git_add"
+
+472
+00:13:25,240 --> 00:13:26,160
+After these "fire"
+
+473
+00:13:26,160 --> 00:13:27,280
+Then download "git_cami"
+
+474
+00:13:27,280 --> 00:13:28,880
+It will jump out of a window
+
+475
+00:13:28,880 --> 00:13:29,960
+"common.nl" window
+
+476
+00:13:29,960 --> 00:13:33,840
+Then download the "common.nl" that "ai" is generated
+
+477
+00:13:33,840 --> 00:13:35,440
+So you see it is generated
+
+478
+00:13:35,440 --> 00:13:36,760
+It will help you do "common"
+
+479
+00:13:36,760 --> 00:13:38,280
+Okay, so it's very simple
+
+480
+00:13:38,280 --> 00:13:40,280
+Then finally let's talk about a "call review"
+
+481
+00:13:40,280 --> 00:13:41,240
+That "call review" is very simple
+
+482
+00:13:41,240 --> 00:13:42,560
+It's the same as "git_common.nl"
+
+483
+00:13:42,560 --> 00:13:44,360
+Just say it doesn't help you do "common"
+
+484
+00:13:44,360 --> 00:13:45,960
+It helps you do "call review"
+
+485
+00:13:45,960 --> 00:13:47,280
+That's what it means
+
+486
+00:13:47,280 --> 00:13:50,560
+Okay, let's see another example
+
+487
+00:13:50,560 --> 00:13:52,200
+Suppose we come and take a look at this
+
+488
+00:13:52,200 --> 00:13:52,840
+Okay
+
+489
+00:13:52,840 --> 00:13:55,560
+Let's listen to that PHP file
+
+490
+00:13:55,560 --> 00:13:56,320
+Okay
+
+491
+00:13:56,320 --> 00:13:59,320
+"common.phe"
+
+492
+00:13:59,320 --> 00:14:00,320
+Okay
+
+493
+00:14:00,320 --> 00:14:01,320
+Then the same
+
+494
+00:14:01,320 --> 00:14:02,560
+Let's put the string up
+
+495
+00:14:02,560 --> 00:14:04,520
+Okay, let's take a look at this
+
+496
+00:14:04,520 --> 00:14:05,520
+This
+
+497
+00:14:05,520 --> 00:14:07,520
+How to use
+
+498
+00:14:07,520 --> 00:14:11,040
+"call_gbt"
+
+499
+00:14:11,040 --> 00:14:11,720
+Okay
+
+500
+00:14:11,720 --> 00:14:12,760
+We are
+
+501
+00:14:12,760 --> 00:14:13,960
+Anyway, we only have
+
+502
+00:14:13,960 --> 00:14:14,680
+"review"
+
+503
+00:14:14,680 --> 00:14:16,120
+Let's just do the next "review"
+
+504
+00:14:16,120 --> 00:14:17,200
+Okay
+
+505
+00:14:17,200 --> 00:14:18,000
+After the next "review"
+
+506
+00:14:18,000 --> 00:14:20,960
+It will go to see the content of this "stage file"
+
+507
+00:14:20,960 --> 00:14:24,000
+Then it will start to do "review call change"
+
+508
+00:14:24,000 --> 00:14:25,440
+Then this is probably
+
+509
+00:14:25,440 --> 00:14:26,560
+It needs to take a while
+
+510
+00:14:26,560 --> 00:14:28,760
+Then you can spray these
+
+511
+00:14:28,760 --> 00:14:29,720
+These details
+
+512
+00:14:29,720 --> 00:14:31,840
+In fact, this thing is actually very useful
+
+513
+00:14:31,840 --> 00:14:32,400
+The "challenge"
+
+514
+00:14:32,400 --> 00:14:33,360
+It tells you that
+
+515
+00:14:33,360 --> 00:14:34,680
+It may have some
+
+516
+00:14:34,680 --> 00:14:36,920
+Some "ingestion"
+
+517
+00:14:36,920 --> 00:14:38,000
+So you have to
+
+518
+00:14:38,000 --> 00:14:39,560
+To verify your input
+
+519
+00:14:39,560 --> 00:14:40,360
+What is it
+
+520
+00:14:40,360 --> 00:14:41,920
+Enter the "share"
+
+521
+00:14:41,920 --> 00:14:43,160
+So I think these
+
+522
+00:14:43,160 --> 00:14:44,080
+The tools are very useful
+
+523
+00:14:44,080 --> 00:14:45,520
+It's got five points for you
+
+524
+00:14:45,520 --> 00:14:46,720
+It's got five points for you
+
+525
+00:14:46,720 --> 00:14:48,360
+So basically I hope this thing
+
+526
+00:14:48,360 --> 00:14:49,960
+Can continue our
+
+527
+00:14:49,960 --> 00:14:51,360
+"Renewing the software flow"
+
+528
+00:14:51,360 --> 00:14:53,040
+Every time the user posts a PR
+
+529
+00:14:53,040 --> 00:14:54,160
+For example, your team
+
+530
+00:14:54,160 --> 00:14:55,640
+The team is posting a PR
+
+531
+00:14:55,640 --> 00:14:56,840
+I automatically
+
+532
+00:14:56,840 --> 00:14:58,000
+From your
+
+533
+00:14:58,000 --> 00:14:59,240
+From your "Kami"
+
+534
+00:14:59,240 --> 00:15:00,000
+All the content
+
+535
+00:15:00,000 --> 00:15:01,120
+Go to do a "call review"
+
+536
+00:15:01,120 --> 00:15:02,480
+Give a "summarize"
+
+537
+00:15:02,480 --> 00:15:03,640
+That "summarize"
+
+538
+00:15:03,640 --> 00:15:05,280
+Is very useful to you
+
+539
+00:15:05,280 --> 00:15:06,240
+It's very useful to the developer itself
+
+540
+00:15:06,240 --> 00:15:07,680
+It's very useful to the developer
+
+541
+00:15:07,680 --> 00:15:08,640
+Then for the "review"
+
+542
+00:15:08,640 --> 00:15:10,120
+He can look at this first
+
+543
+00:15:10,120 --> 00:15:11,440
+He can look at this "review"
+
+544
+00:15:11,440 --> 00:15:12,240
+Summarize you will know that
+
+545
+00:15:12,240 --> 00:15:13,040
+Hey, you
+
+546
+00:15:13,040 --> 00:15:15,200
+What are you doing with this whole "call"
+
+547
+00:15:15,200 --> 00:15:17,840
+And what are the problems that may occur
+
+548
+00:15:17,840 --> 00:15:18,760
+What are the problems that occur
+
+549
+00:15:18,760 --> 00:15:20,000
+And what suggestions do you give
+
+550
+00:15:20,000 --> 00:15:20,760
+Basically
+
+551
+00:15:20,760 --> 00:15:21,800
+Usually it needs to say
+
+552
+00:15:21,800 --> 00:15:23,840
+Hey, he actually has some
+
+553
+00:15:23,840 --> 00:15:24,680
+Some "intuition"
+
+554
+00:15:24,680 --> 00:15:25,960
+That's not you
+
+555
+00:15:25,960 --> 00:15:27,120
+But do you want to wait for you to finish
+
+556
+00:15:27,120 --> 00:15:28,120
+I'll go and see
+
+557
+00:15:28,120 --> 00:15:29,000
+No problem
+
+558
+00:15:29,000 --> 00:15:29,840
+So basically I think
+
+559
+00:15:29,840 --> 00:15:32,240
+The suggestions given by AI are very, very useful
+
+560
+00:15:32,240 --> 00:15:33,200
+Not just in
+
+561
+00:15:33,200 --> 00:15:35,440
+"call-review"
+
+562
+00:15:35,440 --> 00:15:36,080
+In PHP
+
+563
+00:15:36,080 --> 00:15:37,120
+Look at it from a distance
+
+564
+00:15:37,120 --> 00:15:38,360
+He looks a lot
+
+565
+00:15:38,360 --> 00:15:41,000
+Because he's almost finished looking at the "keyhabagore"
+
+566
+00:15:41,000 --> 00:15:42,360
+That's the 2021 data
+
+567
+00:15:42,360 --> 00:15:43,560
+Then I think that
+
+568
+00:15:43,560 --> 00:15:44,920
+The whole model base
+
+569
+00:15:44,920 --> 00:15:46,320
+Has been very, very powerful
+
+570
+00:15:46,320 --> 00:15:47,040
+So basically
+
+571
+00:15:47,040 --> 00:15:48,560
+He can look at the language
+
+572
+00:15:48,560 --> 00:15:49,880
+good
+
+573
+00:15:49,880 --> 00:15:53,000
+Then this is the tool I'm going to introduce today
+
+574
+00:15:53,000 --> 00:15:54,080
+Then I think it's very useful
+
+575
+00:15:54,080 --> 00:15:55,160
+Then below is
+
+576
+00:15:55,160 --> 00:15:55,760
+that
+
+577
+00:15:55,760 --> 00:15:56,800
+good
+
+578
+00:15:56,800 --> 00:15:58,040
+That's China and Hong Kong
+
+579
+00:15:58,040 --> 00:15:59,160
+In fact, most companies
+
+580
+00:15:59,160 --> 00:16:00,960
+Are strict with the CPMC
+
+581
+00:16:00,960 --> 00:16:02,200
+So this tool
+
+582
+00:16:02,200 --> 00:16:03,360
+I'm just going to
+
+583
+00:16:03,360 --> 00:16:04,680
+Just develop the process function
+
+584
+00:16:04,680 --> 00:16:06,160
+You can connect it to the Sacky method
+
+585
+00:16:06,160 --> 00:16:07,680
+You can connect it to the Sacky method
+
+586
+00:16:07,680 --> 00:16:08,840
+Or go
+
+587
+00:16:08,840 --> 00:16:10,120
+Ask OpenAI
+
+588
+00:16:10,120 --> 00:16:12,760
+Or if you have a base UI
+
+589
+00:16:12,760 --> 00:16:14,200
+If you have a "for all possible"
+
+590
+00:16:14,200 --> 00:16:15,160
+It's okay
+
+591
+00:16:15,160 --> 00:16:15,600
+good
+
+592
+00:16:15,600 --> 00:16:16,360
+Then if you expect
+
+593
+00:16:16,360 --> 00:16:17,760
+I think the next step is
+
+594
+00:16:17,760 --> 00:16:19,040
+OpenAI for Azure
+
+595
+00:16:19,040 --> 00:16:20,080
+After coming in
+
+596
+00:16:20,080 --> 00:16:22,240
+He will support Azure OpenAI
+
+597
+00:16:22,240 --> 00:16:23,640
+Because OpenAI
+
+598
+00:16:23,640 --> 00:16:25,760
+The biggest share is software
+
+599
+00:16:25,760 --> 00:16:26,840
+That software is also
+
+600
+00:16:26,840 --> 00:16:29,440
+This thing is integrated into their
+
+601
+00:16:29,440 --> 00:16:29,960
+Azure
+
+602
+00:16:29,960 --> 00:16:31,800
+The whole cloud service is there
+
+603
+00:16:31,800 --> 00:16:32,520
+So basically
+
+604
+00:16:32,520 --> 00:16:33,960
+In terms of us
+
+605
+00:16:33,960 --> 00:16:34,880
+Most of the companies
+
+606
+00:16:34,880 --> 00:16:37,040
+It's impossible to work with OpenAI
+
+607
+00:16:37,040 --> 00:16:38,840
+Because he has no ability to say
+
+608
+00:16:38,840 --> 00:16:39,920
+He won't take your data
+
+609
+00:16:39,920 --> 00:16:42,400
+Do any of the full-time operations
+
+610
+00:16:42,400 --> 00:16:43,320
+But software
+
+611
+00:16:43,320 --> 00:16:44,280
+He is in this aspect
+
+612
+00:16:44,280 --> 00:16:45,600
+Is there a possibility to say
+
+613
+00:16:45,600 --> 00:16:48,000
+Hey, we will never go where
+
+614
+00:16:48,000 --> 00:16:48,960
+Code to do that
+
+615
+00:16:48,960 --> 00:16:50,360
+This is what we have to do with the future
+
+616
+00:16:50,360 --> 00:16:51,920
+Sign the contract later
+
+617
+00:16:51,920 --> 00:16:53,480
+So this is the big company
+
+618
+00:16:53,480 --> 00:16:54,880
+The right way to go
+
 619
-00:16:55,660 --> 00:16:56,660
-I hope
+00:16:54,880 --> 00:16:55,480
+good
 
 620
-00:16:56,660 --> 00:16:58,660
-I hope to introduce this tool today
+00:16:55,480 --> 00:16:57,120
+I hope
 
 621
-00:16:58,660 --> 00:16:59,660
-Is helpful to everyone
+00:16:57,120 --> 00:16:58,560
+I hope that the introduction of this tool
 
 622
-00:16:59,660 --> 00:17:00,660
-If you like it
+00:16:58,560 --> 00:16:59,440
+Is helpful to everyone
 
 623
-00:17:00,660 --> 00:17:02,660
-You can help me to click on the heart
+00:16:59,440 --> 00:17:00,440
+If you like it
 
 624
-00:17:02,660 --> 00:17:03,660
-Click on the war
+00:17:00,440 --> 00:17:01,600
+You can help me to click
 
 625
-00:17:03,660 --> 00:17:04,660
-At present, I think it's
+00:17:01,600 --> 00:17:02,840
+Click on the "subscribe"
 
 626
-00:17:04,660 --> 00:17:05,660
-A lot of people are using it
+00:17:02,840 --> 00:17:03,600
+At present
 
 627
-00:17:05,660 --> 00:17:06,660
-So now it's about 300
+00:17:03,600 --> 00:17:05,360
+Actually, I think it's quite a lot of people using it
 
 628
-00:17:06,660 --> 00:17:07,660
-More people are standing
+00:17:05,360 --> 00:17:07,280
+So now it's probably more than 300 people
 
 629
-00:17:07,660 --> 00:17:08,660
+00:17:07,280 --> 00:17:08,120
 If you like it
 
 630
-00:17:08,660 --> 00:17:10,660
-Just help me introduce the propaganda
+00:17:08,120 --> 00:17:09,920
+Just help me introduce or promote
+
+631
+00:17:09,920 --> 00:17:10,840
+Thank you all
 
