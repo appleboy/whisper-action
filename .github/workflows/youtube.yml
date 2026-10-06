@@ -1,5 +1,7 @@
 name: Youtube Video URL
-on: [push]
+on:
+  push:
+    branches: [main]
 
 jobs:
   youtube-eng-video:

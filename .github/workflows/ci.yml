@@ -1,5 +1,7 @@
 name: Specific Video file
-on: [push]
+on:
+  push:
+    branches: [main]
 
 jobs:
   run-small-model-for-jfk:
